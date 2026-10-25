@@ -1,0 +1,800 @@
+{
+  "status": "PASS_LOAD_ESTIMATES_UNMEASURED_TORQUE",
+  "checks": {
+    "yaw_running_torque_margin_at_least_3": true,
+    "elevation_derated_torque_margin_at_least_3": true,
+    "D_flat_jam_pressure_below_assumed_8_MPa": true,
+    "steel_shaft_bending_below_assumed_100_MPa": true,
+    "tower_stress_below_assumed_8_MPa": true,
+    "arm_2N_side_load_stress_below_assumed_8_MPa": true,
+    "gravity_COM_inside_support_centres_at_all_sampled_angles": true,
+    "gravity_support_margin_with_independent_35_to_100_percent_printed_masses": true,
+    "shaft_cut_lengths_plus_kerfs_fit_200mm": true,
+    "magnet_cap_shaft_insertion_8mm": true
+  },
+  "total_full_solid_mass_kg": 1.8323939217478222,
+  "yaw_inertia_max_kgm2": 0.00565646970876892,
+  "elevation_inertia_max_kgm2": 0.0002166570443627649,
+  "gravity_torque_max_Nm": 0.0030880693617061244,
+  "yaw_required_Nm": 0.028197708369703263,
+  "yaw_available_running_Nm": 0.16000000000000003,
+  "yaw_torque_margin": 5.674219972141792,
+  "elevation_required_Nm": 0.018314952088012305,
+  "elevation_available_derated_Nm": 0.2549729,
+  "elevation_torque_margin": 13.921570680323404,
+  "D_flat_pressure_at_1Nm_MPa": 4.610694459770734,
+  "shaft_bending_at_20N_MPa": 4.3767609350271215,
+  "tower_stress_at_20N_MPa": 0.20397252489235293,
+  "tower_deflection_at_20N_mm": 0.01143605956229792,
+  "arm_stress_at_2N_MPa": 0.208,
+  "arm_deflection_at_2N_mm": 0.14998186666666666,
+  "support_polygon_minimum_COM_margin_mm": 50.586320450775226,
+  "conservative_variable_infill_support_margin_mm": 20.76092141292603,
+  "required_motor_running_torque_for_3x_margin_Nm": 0.02643535159659681,
+  "actual_motor_torque_speed_verified": false,
+  "physical_hardware_validated": false,
+  "assumptions": {
+    "PLA_density_kgm3": 1240,
+    "steel_density_kgm3": 7930,
+    "printed_E_MPa": 1000,
+    "printed_allowable_stress_MPa": 8,
+    "stepper_running_torque_Nm": 0.05,
+    "transmission_efficiency": 0.8,
+    "yaw_friction_Nm": 0.02,
+    "elevation_friction_Nm": 0.015,
+    "belt_pretension_per_span_N": 10
+  },
+  "mass_properties": [
+    {
+      "name": "01_base",
+      "mass_kg": 0.290205726860992,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "02_azimuth_bearing_tower",
+      "mass_kg": 0.09951193346082401,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "03_stepper_tension_bridge",
+      "mass_kg": 0.10572600724928,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "upper_bearing_spacer",
+      "mass_kg": 0.00012651693712,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "lower_bearing_spacer",
+      "mass_kg": 0.00012651693711999997,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "right_elevation_inner_race_spacer",
+      "mass_kg": 0.00012651693711999978,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "04_GT2_80T_integrated_rotor",
+      "mass_kg": 0.11006211728228966,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "07_fork_crossbeam",
+      "mass_kg": 0.11387431474704002,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "08_right_bearing_arm",
+      "mass_kg": 0.10956013659545191,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "09_left_bearing_arm",
+      "mass_kg": 0.10826920891753193,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "10_LD1501MG_adjustable_carrier",
+      "mass_kg": 0.05864336662400002,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "11_servo_horn_shaft_coupler",
+      "mass_kg": 0.008625675079661275,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "12_parabolic_dish_160mm",
+      "mass_kg": 0.06488481457681287,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "13_dish_cradle",
+      "mass_kg": 0.0549707274659103,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "feed_strut_90",
+      "mass_kg": 0.004646621747233713,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "feed_strut_210",
+      "mass_kg": 0.004646416923579873,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "feed_strut_330",
+      "mass_kg": 0.00464646034110066,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "15_feed_hub",
+      "mass_kg": 0.007358669171135336,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "printed_azimuth_lower_collar",
+      "mass_kg": 0.0037902903901273926,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "printed_right_elevation_collar",
+      "mass_kg": 0.0037902903901273943,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "printed_foot_-54_-60",
+      "mass_kg": 0.04839249757718134,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "printed_foot_-54_60",
+      "mass_kg": 0.04839249757718134,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "printed_foot_126_-60",
+      "mass_kg": 0.04839249757718134,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "printed_foot_126_60",
+      "mass_kg": 0.04839249757718134,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "motor_screw_washer_-15.5_-15.5",
+      "mass_kg": 5.167464151999999e-05,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "motor_screw_washer_-15.5_15.5",
+      "mass_kg": 5.167464151999997e-05,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "motor_screw_washer_15.5_-15.5",
+      "mass_kg": 5.1674641519999984e-05,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "motor_screw_washer_15.5_15.5",
+      "mass_kg": 5.1674641519999984e-05,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "22_MT6701_fixed_bridge",
+      "mass_kg": 0.05024517175861334,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "24_MT6701_XYZ_carrier",
+      "mass_kg": 0.003692825996191998,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "25_rotating_4x2_magnet_cap",
+      "mass_kg": 0.004260104753098313,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "servo_ear_spacer_-5_175.2",
+      "mass_kg": 1.3401755080000171e-05,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "servo_ear_spacer_-5_222.8",
+      "mass_kg": 1.340175507999942e-05,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "servo_ear_spacer_5_175.2",
+      "mass_kg": 1.340175507999942e-05,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "servo_ear_spacer_5_222.8",
+      "mass_kg": 1.3401755080000925e-05,
+      "provenance": "fully solid PLA, density assumption 1240 kg/m3"
+    },
+    {
+      "name": "608_az_8",
+      "mass_kg": 0.012,
+      "provenance": "assumed 12 g bearing, measure actual"
+    },
+    {
+      "name": "608_az_59",
+      "mass_kg": 0.012,
+      "provenance": "assumed 12 g bearing, measure actual"
+    },
+    {
+      "name": "azimuth_8mm_shaft_120mm_D_flat",
+      "mass_kg": 0.047619605736061665,
+      "provenance": "CAD steel volume, density assumption 7930 kg/m3"
+    },
+    {
+      "name": "608_elevation_-97",
+      "mass_kg": 0.012,
+      "provenance": "assumed 12 g bearing, measure actual"
+    },
+    {
+      "name": "608_elevation_90",
+      "mass_kg": 0.012,
+      "provenance": "assumed 12 g bearing, measure actual"
+    },
+    {
+      "name": "left_8mm_shaft_40mm_D_flats",
+      "mass_kg": 0.01571494483121334,
+      "provenance": "CAD steel volume, density assumption 7930 kg/m3"
+    },
+    {
+      "name": "right_8mm_shaft_30mm_D_flat",
+      "mass_kg": 0.011866233227160005,
+      "provenance": "CAD steel volume, density assumption 7930 kg/m3"
+    },
+    {
+      "name": "MT6701_23mm_PCB_envelope",
+      "mass_kg": 0.004,
+      "provenance": "assumed module/component mass, stationary"
+    },
+    {
+      "name": "MT6701_IC_height_assumption",
+      "mass_kg": 0.001,
+      "provenance": "assumed module/component mass, stationary"
+    },
+    {
+      "name": "MT6701_header_body_clearance",
+      "mass_kg": 0.001,
+      "provenance": "assumed module/component mass, stationary"
+    },
+    {
+      "name": "MT6701_header_solder_tail_clearance",
+      "mass_kg": 0.001,
+      "provenance": "assumed module/component mass, stationary"
+    },
+    {
+      "name": "4x2_diametric_magnet",
+      "mass_kg": 0.0001883244,
+      "provenance": "assumed NdFeB density 7500 kg/m3"
+    },
+    {
+      "name": "17HS1352_P4130_nominal_envelope",
+      "mass_kg": 0.22,
+      "provenance": "assumed 220 g motor, stationary; weigh actual unit"
+    },
+    {
+      "name": "GT2_20T_metal_pulley_ENVELOPE",
+      "mass_kg": 0.005384086515900003,
+      "provenance": "CAD envelope at assumed aluminium density"
+    },
+    {
+      "name": "LD1501MG_nominal_envelope",
+      "mass_kg": 0.061,
+      "provenance": "61 g LD-1501MG published by Hiwonder"
+    },
+    {
+      "name": "LD1501MG_supplied_round_horn_assumption",
+      "mass_kg": 0.004,
+      "provenance": "assumed 4 g horn"
+    },
+    {
+      "name": "GT2_280mm_belt_PITCH_ENVELOPE",
+      "mass_kg": 0.006,
+      "provenance": "assumed 6 g belt, visual envelope only"
+    }
+  ],
+  "angle_samples": [
+    {
+      "elevation_deg": 0,
+      "yaw_inertia_kgm2": 0.005623465250925597,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": 0.0030880693617061244,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.17240326316894347,
+        73.68686776161246
+      ]
+    },
+    {
+      "elevation_deg": 5,
+      "yaw_inertia_kgm2": 0.0056237172269729616,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": 0.003078980510580021,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.17189747406210162,
+        73.70185187507772
+      ]
+    },
+    {
+      "elevation_deg": 10,
+      "yaw_inertia_kgm2": 0.005624462958730888,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": 0.003046458758629138,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.17008765809703189,
+        73.71673488704216
+      ]
+    },
+    {
+      "elevation_deg": 15,
+      "yaw_inertia_kgm2": 0.005625679787517268,
+      "elevation_inertia_kgm2": 0.00021665704436276488,
+      "gravity_elevation_Nm": 0.0029907516160229946,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.16698758906602493,
+        73.73140352879808
+      ]
+    },
+    {
+      "elevation_deg": 20,
+      "yaw_inertia_kgm2": 0.005627330740605175,
+      "elevation_inertia_kgm2": 0.0002166570443627648,
+      "gravity_elevation_Nm": 0.002912283047753722,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.16262086036627996,
+        73.7457461631246
+      ]
+    },
+    {
+      "elevation_deg": 25,
+      "yaw_inertia_kgm2": 0.005629365654620454,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": 0.0028116502470064545,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.15702070543990457,
+        73.75965363391413
+      ]
+    },
+    {
+      "elevation_deg": 30,
+      "yaw_inertia_kgm2": 0.005631722699730466,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": 0.002689619090158637,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.15022974484735466,
+        73.77302009691638
+      ]
+    },
+    {
+      "elevation_deg": 35,
+      "yaw_inertia_kgm2": 0.005634330258312267,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": 0.0025471183079982963,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.14229966189923332,
+        73.7857438252771
+      ]
+    },
+    {
+      "elevation_deg": 40,
+      "yaw_inertia_kgm2": 0.005637109101017839,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": 0.0023852324175220093,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.1332908093150914,
+        73.79772798374059
+      ]
+    },
+    {
+      "elevation_deg": 45,
+      "yaw_inertia_kgm2": 0.00563997479411773,
+      "elevation_inertia_kgm2": 0.00021665704436276488,
+      "gravity_elevation_Nm": 0.002205193468105665,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.12327174990278747,
+        73.80888136562473
+      ]
+    },
+    {
+      "elevation_deg": 50,
+      "yaw_inertia_kgm2": 0.005642840264977215,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": 0.002008371664864816,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.11231873475412296,
+        73.81911908695879
+      ]
+    },
+    {
+      "elevation_deg": 55,
+      "yaw_inertia_kgm2": 0.005645618447714226,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": 0.00179626494056638,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.10051512292799074,
+        73.82836323250173
+      ]
+    },
+    {
+      "elevation_deg": 60,
+      "yaw_inertia_kgm2": 0.005648224928652129,
+      "elevation_inertia_kgm2": 0.0002166570443627649,
+      "gravity_elevation_Nm": 0.0015704875554558085,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.08795074703760307,
+        73.83654344872416
+      ]
+    },
+    {
+      "elevation_deg": 65,
+      "yaw_inertia_kgm2": 0.005650580511186563,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": 0.0013327578117619035,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.07472122957006372,
+        73.84359747924134
+      ]
+    },
+    {
+      "elevation_deg": 70,
+      "yaw_inertia_kgm2": 0.005652613622134208,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": 0.0010848849763793217,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.06092725514150108,
+        73.84947163862162
+      ]
+    },
+    {
+      "elevation_deg": 75,
+      "yaw_inertia_kgm2": 0.00565426248644772,
+      "elevation_inertia_kgm2": 0.00021665704436276488,
+      "gravity_elevation_Nm": 0.0008287555112550338,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.0466738042263465,
+        73.85412122096527
+      ]
+    },
+    {
+      "elevation_deg": 80,
+      "yaw_inertia_kgm2": 0.005655477004219299,
+      "elevation_inertia_kgm2": 0.00021665704436276477,
+      "gravity_elevation_Nm": 0.0005663187162738366,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.032069354192533345,
+        73.85751084014308
+      ]
+    },
+    {
+      "elevation_deg": 85,
+      "yaw_inertia_kgm2": 0.005656220272941032,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": 0.00029957189390920463,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.017225053723226774,
+        73.8596146991065
+      ]
+    },
+    {
+      "elevation_deg": 90,
+      "yaw_inertia_kgm2": 0.00565646970876892,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": 3.054514854546862e-05,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        0.0022538769082318276,
+        73.86041678621837
+      ]
+    },
+    {
+      "elevation_deg": 95,
+      "yaw_inertia_kgm2": 0.005656217732721555,
+      "elevation_inertia_kgm2": 0.00021665704436276475,
+      "gravity_elevation_Nm": -0.00023871406384236342,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.01273023655704553,
+        73.85991099711153
+      ]
+    },
+    {
+      "elevation_deg": 100,
+      "yaw_inertia_kgm2": 0.005655472000963628,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": -0.0005061565180648622,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.027613248521479693,
+        73.85810118114647
+      ]
+    },
+    {
+      "elevation_deg": 105,
+      "yaw_inertia_kgm2": 0.0056542551721772485,
+      "elevation_inertia_kgm2": 0.00021665704436276488,
+      "gravity_elevation_Nm": -0.000769746815559226,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.0422818902774125,
+        73.85500111211545
+      ]
+    },
+    {
+      "elevation_deg": 110,
+      "yaw_inertia_kgm2": 0.005652604219089342,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": -0.0010274788750013488,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.056624524603913734,
+        73.85063438341571
+      ]
+    },
+    {
+      "elevation_deg": 115,
+      "yaw_inertia_kgm2": 0.0056505693050740635,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": -0.0012773911997960047,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.07053199539343906,
+        73.84503422848934
+      ]
+    },
+    {
+      "elevation_deg": 120,
+      "yaw_inertia_kgm2": 0.005648212259964051,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": -0.001517581806250317,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.08389845839571985,
+        73.83824326789679
+      ]
+    },
+    {
+      "elevation_deg": 125,
+      "yaw_inertia_kgm2": 0.005645604701382249,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": -0.0017462226988181164,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.09662218675641758,
+        73.83031318494868
+      ]
+    },
+    {
+      "elevation_deg": 130,
+      "yaw_inertia_kgm2": 0.00564282585867668,
+      "elevation_inertia_kgm2": 0.00021665704436276475,
+      "gravity_elevation_Nm": -0.001961573782249817,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.10860634521991025,
+        73.82130433236453
+      ]
+    },
+    {
+      "elevation_deg": 135,
+      "yaw_inertia_kgm2": 0.005639960165576787,
+      "elevation_inertia_kgm2": 0.00021665704436276477,
+      "gravity_elevation_Nm": -0.0021619961047679623,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.11975972710405783,
+        73.81128527295222
+      ]
+    },
+    {
+      "elevation_deg": 140,
+      "yaw_inertia_kgm2": 0.005637094694717302,
+      "elevation_inertia_kgm2": 0.0002166570443627648,
+      "gravity_elevation_Nm": -0.0023459643314798855,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.12999744843812605,
+        73.80033225780356
+      ]
+    },
+    {
+      "elevation_deg": 145,
+      "yaw_inertia_kgm2": 0.00563431651198029,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": -0.002512078353097252,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.1392415939810573,
+        73.78852864597742
+      ]
+    },
+    {
+      "elevation_deg": 150,
+      "yaw_inertia_kgm2": 0.005631710031042389,
+      "elevation_inertia_kgm2": 0.0002166570443627648,
+      "gravity_elevation_Nm": -0.0026590739416131647,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.14742181020350234,
+        73.77596427008703
+      ]
+    },
+    {
+      "elevation_deg": 155,
+      "yaw_inertia_kgm2": 0.0056293544485079535,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": -0.0027858323718406605,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.1544758407206586,
+        73.7627347526195
+      ]
+    },
+    {
+      "elevation_deg": 160,
+      "yaw_inertia_kgm2": 0.005627321337560309,
+      "elevation_inertia_kgm2": 0.0002166570443627648,
+      "gravity_elevation_Nm": -0.00289138893558687,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.16035000010095055,
+        73.74894077819094
+      ]
+    },
+    {
+      "elevation_deg": 165,
+      "yaw_inertia_kgm2": 0.005625672473246798,
+      "elevation_inertia_kgm2": 0.00021665704436276485,
+      "gravity_elevation_Nm": -0.002974940283664893,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.16499958244457963,
+        73.73468732727578
+      ]
+    },
+    {
+      "elevation_deg": 170,
+      "yaw_inertia_kgm2": 0.005624457955475218,
+      "elevation_inertia_kgm2": 0.0002166570443627648,
+      "gravity_elevation_Nm": -0.0030358505398661658,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.16838920162241636,
+        73.72008287724198
+      ]
+    },
+    {
+      "elevation_deg": 175,
+      "yaw_inertia_kgm2": 0.005623714686753486,
+      "elevation_inertia_kgm2": 0.00021665704436276488,
+      "gravity_elevation_Nm": -0.003073656140362384,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.17049306058580949,
+        73.70523857677266
+      ]
+    },
+    {
+      "elevation_deg": 180,
+      "yaw_inertia_kgm2": 0.005623465250925597,
+      "elevation_inertia_kgm2": 0.00021665704436276483,
+      "gravity_elevation_Nm": -0.0030880693617061244,
+      "total_mass_kg": 1.8323939217478222,
+      "elevation_moving_mass_kg": 0.18115085375393478,
+      "center_of_mass_mm": [
+        16.20265966392739,
+        -0.17129514769770238,
+        73.69026739995766
+      ]
+    }
+  ],
+  "limitations": [
+    "Engineering estimates, not a 3D FEA, material certification or physical proof load.",
+    "Mass distribution inside infill parts, servo internals and stepper rotor inertia are not measured.",
+    "Running stepper torque and continuous servo torque must be checked at selected current, supply and temperature.",
+    "D flats must be filed to the gauge; smooth round shafts are not an accepted substitute for these drive joints.",
+    "Support margin checks gravity only; anchor the base for cable pulls, outdoor use or lateral impacts.",
+    "Assembly fit, layer adhesion, belt tooth engagement and coaxial alignment remain commissioning checks."
+  ]
+}

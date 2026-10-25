@@ -1,0 +1,27 @@
+mainmenu "Antenna V5 azimuth fuzzy controller"
+
+menu "Antenna application"
+
+config ANTENNA_MT6701_SINGLE_READS
+	bool "Read MT6701 registers 0x03 and 0x04 with two single-byte transfers"
+	help
+	  The datasheet figure shows two single-byte reads (0x03 first, then
+	  0x04). The default burst read of two bytes starting at 0x03 is what
+	  most drivers use and is faster; enable this if a module returns
+	  inconsistent bytes with burst reads.
+
+config ANTENNA_TX_BUF_SIZE
+	int "UART transmit ring buffer size"
+	default 4096
+
+config ANTENNA_TELEMETRY_MS
+	int "Telemetry period at boot in ms (0 = off)"
+	default 100
+
+config ANTENNA_WDT_TIMEOUT_MS
+	int "Independent watchdog timeout in ms"
+	default 1000
+
+endmenu
+
+source "Kconfig.zephyr"

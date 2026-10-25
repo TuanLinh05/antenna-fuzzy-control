@@ -1,0 +1,89 @@
+[System]
+Name='antenna_sugeno25'
+Type='sugeno'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=25
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='error_normalized'
+Range=[-1 1]
+NumMFs=5
+MF1='NB':'trimf',[-1.5 -1 -0.5]
+MF2='NS':'trimf',[-1 -0.5 0]
+MF3='ZE':'trimf',[-0.5 0 0.5]
+MF4='PS':'trimf',[0 0.5 1]
+MF5='PB':'trimf',[0.5 1 1.5]
+
+[Input2]
+Name='negative_velocity_normalized'
+Range=[-1 1]
+NumMFs=5
+MF1='NB':'trimf',[-1.5 -1 -0.5]
+MF2='NS':'trimf',[-1 -0.5 0]
+MF3='ZE':'trimf',[-0.5 0 0.5]
+MF4='PS':'trimf',[0 0.5 1]
+MF5='PB':'trimf',[0.5 1 1.5]
+
+[Output1]
+Name='velocity_normalized'
+Range=[-1 1]
+NumMFs=25
+MF1='rule_1':'constant',[-1]
+MF2='rule_2':'constant',[-1]
+MF3='rule_3':'constant',[-1]
+MF4='rule_4':'constant',[-1]
+MF5='rule_5':'constant',[-1]
+MF6='rule_6':'constant',[-1]
+MF7='rule_7':'constant',[-1]
+MF8='rule_8':'constant',[-1]
+MF9='rule_9':'constant',[-0.75]
+MF10='rule_10':'constant',[-0.5]
+MF11='rule_11':'constant',[-0.5]
+MF12='rule_12':'constant',[-0.25]
+MF13='rule_13':'constant',[0]
+MF14='rule_14':'constant',[0.25]
+MF15='rule_15':'constant',[0.5]
+MF16='rule_16':'constant',[0.5]
+MF17='rule_17':'constant',[0.75]
+MF18='rule_18':'constant',[1]
+MF19='rule_19':'constant',[1]
+MF20='rule_20':'constant',[1]
+MF21='rule_21':'constant',[1]
+MF22='rule_22':'constant',[1]
+MF23='rule_23':'constant',[1]
+MF24='rule_24':'constant',[1]
+MF25='rule_25':'constant',[1]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+1 3, 3 (1) : 1
+1 4, 4 (1) : 1
+1 5, 5 (1) : 1
+2 1, 6 (1) : 1
+2 2, 7 (1) : 1
+2 3, 8 (1) : 1
+2 4, 9 (1) : 1
+2 5, 10 (1) : 1
+3 1, 11 (1) : 1
+3 2, 12 (1) : 1
+3 3, 13 (1) : 1
+3 4, 14 (1) : 1
+3 5, 15 (1) : 1
+4 1, 16 (1) : 1
+4 2, 17 (1) : 1
+4 3, 18 (1) : 1
+4 4, 19 (1) : 1
+4 5, 20 (1) : 1
+5 1, 21 (1) : 1
+5 2, 22 (1) : 1
+5 3, 23 (1) : 1
+5 4, 24 (1) : 1
+5 5, 25 (1) : 1

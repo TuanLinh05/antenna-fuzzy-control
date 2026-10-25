@@ -1,0 +1,636 @@
+{
+  "status": "PASS_DIGITAL_WITH_LIMITATIONS",
+  "stl_types": 22,
+  "total_print_objects": 36,
+  "plate_count": 5,
+  "minimum_XY_footprint_gap_mm": 3.9987567600235394,
+  "procurement_products": 35,
+  "project_layout": [
+    "Simulation",
+    "Firmware",
+    "3D Print/Antenna_TheGioiIC_v3"
+  ],
+  "manifest_paths_relative_to": "Project root (Bai tap lon)",
+  "archive_project_root": "Antenna_TheGioiIC_v3",
+  "mechanical_total_vnd": 814280,
+  "electrical_total_vnd": 412237,
+  "system_total_vnd": 1226517,
+  "units": "millimeter",
+  "printer": "Bambu Lab A1 256 x256 x256 mm",
+  "plate_mesh_checks": [
+    {
+      "plate": "Plate_01_base_crossbeam.3mf",
+      "part": "01_base",
+      "bounds_mm": [
+        [
+          24.0,
+          14.0,
+          0.0
+        ],
+        [
+          232.0,
+          160.0,
+          8.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_01_base_crossbeam.3mf",
+      "part": "07_fork_crossbeam",
+      "bounds_mm": [
+        [
+          24.0,
+          170.0,
+          0.0
+        ],
+        [
+          232.0,
+          230.0,
+          8.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_01_base_crossbeam.3mf",
+      "part": "05_bearing_spacer",
+      "bounds_mm": [
+        [
+          8.25,
+          184.252,
+          0.0
+        ],
+        [
+          19.75,
+          195.748,
+          2.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_01_base_crossbeam.3mf",
+      "part": "05_bearing_spacer",
+      "bounds_mm": [
+        [
+          8.25,
+          210.252,
+          0.0
+        ],
+        [
+          19.75,
+          221.748,
+          2.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_02_dish_cradle_feed_arms.3mf",
+      "part": "12_parabolic_dish_160mm",
+      "bounds_mm": [
+        [
+          12.0,
+          12.025,
+          0.0
+        ],
+        [
+          172.0,
+          171.975,
+          30.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_02_dish_cradle_feed_arms.3mf",
+      "part": "13_dish_cradle",
+      "bounds_mm": [
+        [
+          13.0,
+          183.0,
+          0.0
+        ],
+        [
+          183.0,
+          231.0,
+          29.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_02_dish_cradle_feed_arms.3mf",
+      "part": "14_feed_strut",
+      "bounds_mm": [
+        [
+          187.0,
+          13.5,
+          0.0
+        ],
+        [
+          249.0,
+          88.5,
+          8.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_02_dish_cradle_feed_arms.3mf",
+      "part": "14_feed_strut",
+      "bounds_mm": [
+        [
+          187.0,
+          94.5,
+          0.0
+        ],
+        [
+          249.0,
+          169.5,
+          8.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_02_dish_cradle_feed_arms.3mf",
+      "part": "14_feed_strut",
+      "bounds_mm": [
+        [
+          187.0,
+          175.5,
+          0.0
+        ],
+        [
+          249.0,
+          250.5,
+          8.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_03_drive_and_servo_mounts.3mf",
+      "part": "08_right_bearing_arm",
+      "bounds_mm": [
+        [
+          11.0,
+          15.0,
+          0.0
+        ],
+        [
+          147.0,
+          75.0,
+          32.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_03_drive_and_servo_mounts.3mf",
+      "part": "09_left_bearing_arm",
+      "bounds_mm": [
+        [
+          11.0,
+          81.0,
+          0.0
+        ],
+        [
+          147.0,
+          141.0,
+          32.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_03_drive_and_servo_mounts.3mf",
+      "part": "02_azimuth_bearing_tower",
+      "bounds_mm": [
+        [
+          11.0,
+          156.013,
+          0.0
+        ],
+        [
+          95.0,
+          239.987,
+          58.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_03_drive_and_servo_mounts.3mf",
+      "part": "03_stepper_tension_bridge",
+      "bounds_mm": [
+        [
+          164.0,
+          14.0,
+          0.0
+        ],
+        [
+          234.0,
+          70.0,
+          80.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_03_drive_and_servo_mounts.3mf",
+      "part": "10_MG946R_short_screw_carrier",
+      "bounds_mm": [
+        [
+          160.0,
+          76.0,
+          0.0
+        ],
+        [
+          238.0,
+          134.0,
+          44.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_03_drive_and_servo_mounts.3mf",
+      "part": "04_GT2_80T_integrated_rotor",
+      "bounds_mm": [
+        [
+          148.0,
+          156.015,
+          0.0
+        ],
+        [
+          244.0,
+          251.985,
+          37.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_03_drive_and_servo_mounts.3mf",
+      "part": "11_servo_horn_shaft_coupler",
+      "bounds_mm": [
+        [
+          113.0,
+          217.006,
+          0.0
+        ],
+        [
+          149.0,
+          252.994,
+          18.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "16_608_fit_coupon",
+      "bounds_mm": [
+        [
+          25.0,
+          33.0,
+          0.0
+        ],
+        [
+          109.0,
+          63.0,
+          9.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "17_shaft_fit_coupon",
+      "bounds_mm": [
+        [
+          44.0,
+          83.0,
+          0.0
+        ],
+        [
+          86.0,
+          99.0,
+          8.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "15_feed_hub",
+      "bounds_mm": [
+        [
+          124.0,
+          41.0,
+          0.0
+        ],
+        [
+          152.0,
+          68.996,
+          24.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "18_printed_split_shaft_collar",
+      "bounds_mm": [
+        [
+          117.504,
+          91.0,
+          0.0
+        ],
+        [
+          142.5,
+          115.0,
+          8.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "18_printed_split_shaft_collar",
+      "bounds_mm": [
+        [
+          158.504,
+          91.0,
+          0.0
+        ],
+        [
+          183.5,
+          115.0,
+          8.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "19_bolted_printed_foot",
+      "bounds_mm": [
+        [
+          12.0,
+          127.005,
+          0.0
+        ],
+        [
+          44.0,
+          158.995,
+          90.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "19_bolted_printed_foot",
+      "bounds_mm": [
+        [
+          48.0,
+          127.005,
+          0.0
+        ],
+        [
+          80.0,
+          158.995,
+          90.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "19_bolted_printed_foot",
+      "bounds_mm": [
+        [
+          84.0,
+          127.005,
+          0.0
+        ],
+        [
+          116.0,
+          158.995,
+          90.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "19_bolted_printed_foot",
+      "bounds_mm": [
+        [
+          120.0,
+          127.005,
+          0.0
+        ],
+        [
+          152.0,
+          158.995,
+          90.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "20_MG946R_mount_fit_gauge",
+      "bounds_mm": [
+        [
+          167.0,
+          142.0,
+          0.0
+        ],
+        [
+          223.0,
+          212.0,
+          4.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "05_bearing_spacer",
+      "bounds_mm": [
+        [
+          8.25,
+          102.252,
+          0.0
+        ],
+        [
+          19.75,
+          113.748,
+          2.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          26.0,
+          177.001,
+          0.0
+        ],
+        [
+          34.0,
+          184.999,
+          1.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          42.0,
+          177.001,
+          0.0
+        ],
+        [
+          50.0,
+          184.999,
+          1.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          58.0,
+          177.001,
+          0.0
+        ],
+        [
+          66.0,
+          184.999,
+          1.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          74.0,
+          177.001,
+          0.0
+        ],
+        [
+          82.0,
+          184.999,
+          1.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          26.0,
+          194.001,
+          0.0
+        ],
+        [
+          34.0,
+          201.999,
+          1.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          42.0,
+          194.001,
+          0.0
+        ],
+        [
+          50.0,
+          201.999,
+          1.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_04_fit_test_and_feed_hub.3mf",
+      "part": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          58.0,
+          194.001,
+          0.0
+        ],
+        [
+          66.0,
+          201.999,
+          1.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_05_encoder_and_D_shaft_gauge.3mf",
+      "part": "22_output_encoder_bracket",
+      "bounds_mm": [
+        [
+          25.0,
+          33.0,
+          0.0
+        ],
+        [
+          105.0,
+          97.0,
+          35.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "plate": "Plate_05_encoder_and_D_shaft_gauge.3mf",
+      "part": "23_D_shaft_fit_gauge",
+      "bounds_mm": [
+        [
+          127.0,
+          27.0,
+          0.0
+        ],
+        [
+          147.0,
+          65.0,
+          8.0
+        ]
+      ],
+      "watertight": true
+    }
+  ],
+  "physical_print_tested": false,
+  "simulation_status": "PASS_WITH_STRESS_LIMITATIONS"
+}

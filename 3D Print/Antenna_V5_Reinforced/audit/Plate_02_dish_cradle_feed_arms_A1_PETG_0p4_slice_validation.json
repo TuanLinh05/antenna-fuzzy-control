@@ -1,0 +1,127 @@
+{
+  "file": "Plate_02_dish_cradle_feed_arms_A1_PETG_0p4.3mf",
+  "sha256": "35241e8eb473347803ef0ff77caa2be087e422b92f4eb66dc888ed2ef58c90b0",
+  "status": "PASS_SLICED",
+  "object_count": 5,
+  "estimated_hours": 29.14,
+  "estimated_filament_g": 198.63,
+  "slicer_warning": "",
+  "generated_support_segments": 731841,
+  "printed_object_max_Z_mm": {
+    "103": 8.0,
+    "104": 8.0,
+    "105": 8.0,
+    "102": 29.0,
+    "101": 30.0
+  },
+  "extruded_path_XY_bounds_mm": [
+    [
+      9.422,
+      9.922
+    ],
+    [
+      252.578,
+      254.078
+    ]
+  ],
+  "features": {
+    "Brim": 2716,
+    "Outer wall": 41114,
+    "Inner wall": 126820,
+    "Gap infill": 13389,
+    "Bottom surface": 701,
+    "Support": 466214,
+    "Internal solid infill": 118048,
+    "Overhang wall": 6167,
+    "Top surface": 4842,
+    "Sparse infill": 107687,
+    "Floating vertical shell": 3844,
+    "Support transition": 78500,
+    "Support interface": 187127,
+    "Bridge": 2203
+  },
+  "parts": [
+    {
+      "name": "12_parabolic_dish_160mm",
+      "bounds_mm": [
+        [
+          12.0,
+          12.0249,
+          0.0
+        ],
+        [
+          172.0,
+          171.9751,
+          30.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "13_dish_cradle",
+      "bounds_mm": [
+        [
+          13.0,
+          183.0,
+          0.0
+        ],
+        [
+          183.0,
+          231.0,
+          29.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "14_feed_strut",
+      "bounds_mm": [
+        [
+          187.0,
+          13.5,
+          0.0
+        ],
+        [
+          249.0,
+          88.5,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "14_feed_strut",
+      "bounds_mm": [
+        [
+          187.0,
+          94.5,
+          0.0
+        ],
+        [
+          249.0,
+          169.5,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "14_feed_strut",
+      "bounds_mm": [
+        [
+          187.0,
+          175.5,
+          0.0
+        ],
+        [
+          249.0,
+          250.5,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    }
+  ],
+  "Gcode_sha256": "c982cdcef5128ed4da9c081a35d07c521ca107f18733ead22e51ba21e6de9d56",
+  "thumbnail_added_after_slicing": true
+}

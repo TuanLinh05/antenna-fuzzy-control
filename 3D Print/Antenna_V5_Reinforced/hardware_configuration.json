@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-25",
+  "status": "USER_HARDWARE_RECORDED_IDENTIFICATION_REQUIRED",
+  "controller": {
+    "family": "STM32F103",
+    "exact_board_variant": null
+  },
+  "azimuth": {
+    "motor": "17HS1352-P4130",
+    "driver": "TB6600 (user plans to replace DM542-05)",
+    "previous_driver": "DM542-05",
+    "motor_full_step_deg": 1.8,
+    "motor_rated_phase_current_A": 1.3,
+    "motor_wiring": "2-phase bipolar, 4 leads (seller specification)",
+    "motor_torque_speed_curve": null,
+    "microstep": null,
+    "actual_transmission_ratio": null,
+    "legacy_CAD_ratio_reference_only": 4,
+    "sensor_currently_installed": false,
+    "sensor_already_owned": "MT6701",
+    "selected_sensor_placement": "Directly on antenna azimuth output shaft after the transmission; rotating magnet and fixed sensor PCB",
+    "selected_feedback": "MT6701 absolute angle; interface and mounting to be verified",
+    "previous_motor": "Shinano Kenshi STP-43D2073-01",
+    "motor_owned": false,
+    "motor_parameter_provenance": "User-provided listing screenshots; actual unit not yet measured",
+    "motor_phase_resistance_ohm_seller": 2.1,
+    "motor_holding_torque_claim_Nm": 0.25,
+    "motor_shaft_diameter_design_mm": 5,
+    "motor_shaft_diameter_alternative_seller_text_mm": 4.5,
+    "planned_microstep": 16,
+    "design_transmission_ratio": 4,
+    "PCB_size_mm": [
+      23,
+      23
+    ],
+    "PCB_hole_diameter_mm_approx": 2,
+    "PCB_hole_pitch_mm_derived": 18,
+    "magnet_dimensions_mm_approx": [
+      4,
+      2
+    ]
+  },
+  "elevation": {
+    "servo": "Hiwonder LD-1501MG",
+    "published_operating_voltage_V": [
+      6,
+      8.4
+    ],
+    "published_PWM_period_ms": 20,
+    "published_nominal_pulse_us": [
+      500,
+      2500
+    ],
+    "calibrated_safe_pulse_us": null,
+    "pulse_to_elevation_calibration": null,
+    "identified_servo_dynamics": null,
+    "sensor_currently_installed": false,
+    "selected_control": "Servo internal position loop with STM32 PWM position command; no external fuzzy elevation feedback",
+    "selected_validation": "External angle reference and bidirectional calibration under dish load",
+    "additional_elevation_sensor_planned": false,
+    "supplied_round_horn_confirmed_by_user": true
+  },
+  "power": {
+    "user_proposed_supply_V": 12,
+    "user_proposed_supply_A": 5,
+    "TB6600_exact_module_verified": false,
+    "reference_TB6600_module_input_V": [
+      9,
+      42
+    ],
+    "selected_driver_bus_V": 12,
+    "selected_servo_regulated_target_V": 7,
+    "note": "Use a TB6600 module rated for 12V input and a separate approximately 7V servo buck rail. Set phase current for the verified 17HS1352 motor winding configuration. Supply power, buck peak current and thermal behavior remain unmeasured."
+  },
+  "teaching_scope": {
+    "instructor_requirement_for_fuzzy_on_both_axes": null,
+    "user_selected_architecture": "One external fuzzy azimuth loop with MT6701 output-shaft feedback; elevation uses the servo internal position loop.",
+    "recommended_project_title": "Fuzzy azimuth angle control on a two-axis antenna mechanism"
+  },
+  "physical_hardware_validated": false,
+  "legacy_simulation_validates_this_hardware": false,
+  "CAD_revision": "Antenna_V5_Reinforced",
+  "CAD_folder": ".",
+  "CAD_changes_V5": [
+    "Servo carrier face 8mm, side beams 16mm, cross ties 8mm; four servo ear screws M3x16",
+    "MT6701 open-front U bridge and removable three-point carrier"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "intersection_checks": 8645,
+  "elevation_samples_deg": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180
+  ],
+  "azimuth_samples_deg": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330,
+    360
+  ],
+  "maximum_at_35_deg_mm3": 0.0,
+  "failures": [],
+  "limitations": [
+    "Discrete samples, not a continuous swept-volume proof.",
+    "No physical fit, backlash, loaded servo travel, or print verification.",
+    "Belt mesh is a visual pitch-line envelope and excluded from solid intersection checks.",
+    "Screw bodies and nuts are not in the assembly CAD; fastener lengths were separately checked."
+  ]
+}

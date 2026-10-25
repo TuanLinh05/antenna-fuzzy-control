@@ -1,0 +1,21 @@
+{
+  "status": "PASS_COMPILED_AND_HOST_TESTED",
+  "host_tests": "PASS: 40401 fuzzy grid points; symmetry, bounds, monotonicity, wrap, deadband",
+  "fuzzy_core_compiled_for": [
+    "Cortex-M3 soft float",
+    "Cortex-M4 soft float"
+  ],
+  "firmware_target": "STM32F103C8T6, 64 KB Flash, 20 KB SRAM, HSI 8 MHz",
+  "flash_binary_bytes": 5152,
+  "static_ram_plus_reserved_stack_bytes": 2432,
+  "reserved_stack_bytes": 2048,
+  "vector_stack_hex": "0x20005000",
+  "vector_reset_hex": "0x800098d",
+  "hardware_flashed": false,
+  "hardware_timing_measured": false,
+  "limitations": [
+    "Compiled firmware is a commissioning prototype; no physical I/O has been tested.",
+    "F4 requires its own peripheral/startup layer; the F103 HEX must not be flashed onto F4.",
+    "FIS numerical equivalence to MATLAB is checked by the later MATLAB simulation suite."
+  ]
+}

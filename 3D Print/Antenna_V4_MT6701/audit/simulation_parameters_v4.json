@@ -1,0 +1,15 @@
+{
+  "yaw_inertia": 0.00565646970876892,
+  "elevation_inertia": 0.0002166570443627649,
+  "yaw_inertia_coefficients": [
+    0.00563996747984726,
+    -1.6502228921661174e-05,
+    7.314270471470326e-09
+  ],
+  "gravity_torque_max": 0.0030880693617061244,
+  "ratio": 4,
+  "absolute_encoder_counts": 16384,
+  "microstep_angle_output_rad": 0.0004908738521234052,
+  "yaw_motor_running_torque_assumed": 0.05,
+  "prototype_velocity_limit_rad_s": 0.5235987755982988
+}

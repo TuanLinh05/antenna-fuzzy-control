@@ -1,0 +1,27 @@
+﻿item,assembly_quantity,note
+17HS1352-P4130 stepper,1,Chosen model; shaft bore/current convention must be checked on received unit
+TB6600 driver,1,Select exact module rated for 12V input; set current from motor and peak/RMS table
+LD-1501MG + supplied round horn,1,User owns round horn; ear/axis dimensions require fit gauge
+MT6701 module 23x23mm,1,User already owns; confirm actual pinout and IC center
+Diametric magnet 4x2mm,1,User supplied; field strength and angle accuracy unmeasured
+GT2 metal pulley 20T for 6mm belt,1,Nominal 5mm bore; measure actual shaft before purchase
+Closed-loop 2GT belt 280mm x6mm,1,140 teeth at 2mm pitch
+608 bearing 8x22x7mm,4,Two azimuth and two elevation
+8mm steel shaft stock 200mm,1,Cut 120 +40 +30mm; preserve round bearing seats and file specified drive flats
+12V 5A regulated power supply,1,Selected; whole-system transient/load validation required
+Buck to approximately 7V for servo,1,At least the assumed 3A transient plus margin; actual thermal rating required
+STM32F103 board,1,User owns; exact board variant and power arrangement unverified
+MCU logic regulator / STEP-DIR buffers,1,Use 3.3V sensor interface and driver-compatible pulse levels
+Suitable magnet adhesive and insulated flexible cable,1,Not price-quoted; mechanically retain and strain-relieve
+M4x20 screw,20,Nominal lengths checked; tapped motor holes remain a physical check
+M3x12 screw,12,Nominal lengths checked; tapped motor holes remain a physical check
+M3x16 screw,7,Nominal lengths checked; tapped motor holes remain a physical check
+M3x10 screw,6,Nominal lengths checked; tapped motor holes remain a physical check
+M3x8 screw,1,Nominal lengths checked; tapped motor holes remain a physical check
+M3x20 screw,7,Nominal lengths checked; tapped motor holes remain a physical check
+M2x10 screw,2,Nominal lengths checked; tapped motor holes remain a physical check
+M3x25 screw,4,Nominal lengths checked; tapped motor holes remain a physical check
+M2x8 screw,4,Nominal lengths checked; tapped motor holes remain a physical check
+M2 hex nut,6,Includes floating M2 PCB nuts and both M3 nuts per sensor stud
+M3 hex nut,37,Includes floating M2 PCB nuts and both M3 nuts per sensor stud
+M4 hex nut,20,Includes floating M2 PCB nuts and both M3 nuts per sensor stud

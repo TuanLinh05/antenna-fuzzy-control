@@ -1,0 +1,110 @@
+{
+  "file": "Plate_01_base_crossbeam_A1_PETG_0p4.3mf",
+  "sha256": "0e43c178645dcb0612104b02b8d69c7cd489ea18896e9411974c4857c65efa0b",
+  "status": "PASS_SLICED",
+  "object_count": 4,
+  "estimated_hours": 24.7,
+  "estimated_filament_g": 281.66,
+  "slicer_warning": "",
+  "generated_support_segments": 3736,
+  "printed_object_max_Z_mm": {
+    "104": 2.0,
+    "103": 2.0,
+    "102": 8.0,
+    "101": 8.0
+  },
+  "extruded_path_XY_bounds_mm": [
+    [
+      6.508,
+      10.423
+    ],
+    [
+      235.578,
+      233.578
+    ]
+  ],
+  "features": {
+    "Brim": 2046,
+    "Outer wall": 7352,
+    "Gap infill": 1550,
+    "Inner wall": 52350,
+    "Bottom surface": 3439,
+    "Support": 1681,
+    "Internal solid infill": 56591,
+    "Sparse infill": 1178099,
+    "Top surface": 1980,
+    "Support transition": 494,
+    "Support interface": 1561,
+    "Floating vertical shell": 26607,
+    "Bridge": 5157,
+    "Overhang wall": 200
+  },
+  "parts": [
+    {
+      "name": "01_base",
+      "bounds_mm": [
+        [
+          24.0,
+          14.0,
+          0.0
+        ],
+        [
+          232.0,
+          160.0,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "07_fork_crossbeam",
+      "bounds_mm": [
+        [
+          24.0,
+          170.0,
+          0.0
+        ],
+        [
+          232.0,
+          230.0,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "05_bearing_spacer",
+      "bounds_mm": [
+        [
+          8.25,
+          184.2518,
+          0.0
+        ],
+        [
+          19.75,
+          195.7482,
+          2.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "05_bearing_spacer",
+      "bounds_mm": [
+        [
+          8.25,
+          210.2518,
+          0.0
+        ],
+        [
+          19.75,
+          221.7482,
+          2.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    }
+  ],
+  "Gcode_sha256": "1a862fbc5802dca23daf3c26c3d149387895f41c0f36d401c20768451e822164",
+  "thumbnail_added_after_slicing": true
+}

@@ -1,0 +1,102 @@
+/*
+ * Antenna V5 pin map on the STM32F103C8 Blue Pill (board stm32_min_dev@blue).
+ *
+ *   PB13  STEP  -> NPN buffer -> TB6600 PUL-   (PUL+ to 5 V, common anode)
+ *   PB12  DIR   -> NPN buffer -> TB6600 DIR-   (DIR+ to 5 V)
+ *   PB14  ENA   -> NPN buffer -> TB6600 EN-    (optional; high = motor released)
+ *   PB6   TIM4_CH1 servo PWM 50 Hz -> LD-1501MG signal (1 k series)
+ *   PB10  I2C2 SCL, PB11 I2C2 SDA -> MT6701 (3.3 V, 4.7 k pull-ups)
+ *   PA9   USART1 TX -> USB-UART RX,  PA10 USART1 RX <- USB-UART TX (115200 8N1)
+ *   PC13  on-board LED (status)
+ * TIM2 is the STEP timer (1 MHz counter, interrupt per edge).
+ */
+#include <zephyr/dt-bindings/gpio/gpio.h>
+#include <zephyr/dt-bindings/pwm/pwm.h>
+
+/ {
+	chosen {
+		zephyr,code-partition = &code_partition;
+	};
+
+	zephyr,user {
+		step-gpios = <&gpiob 13 GPIO_ACTIVE_HIGH>;
+		dir-gpios = <&gpiob 12 GPIO_ACTIVE_HIGH>;
+		ena-gpios = <&gpiob 14 GPIO_ACTIVE_HIGH>;
+		pwms = <&pwm4 1 PWM_MSEC(20) PWM_POLARITY_NORMAL>;
+	};
+
+	aliases {
+		watchdog0 = &iwdg;
+	};
+};
+
+/* Peripherals enabled by the board file that share our pins or are unused. */
+&usart2 { status = "disabled"; };
+&usart3 { status = "disabled"; };   /* PB10/PB11 are used by I2C2 */
+&spi1 { status = "disabled"; };
+&spi2 { status = "disabled"; };     /* PB12..PB15 are used for STEP/DIR/ENA */
+&i2c1 { status = "disabled"; };     /* PB6 is the servo PWM */
+&adc1 { status = "disabled"; };
+&pwm1 { status = "disabled"; };
+&timers1 { status = "disabled"; };
+&usb { status = "disabled"; };
+
+&usart1 {
+	current-speed = <115200>;
+	interrupts = <37 2>;
+};
+
+&i2c2 {
+	status = "okay";
+	clock-frequency = <I2C_BITRATE_FAST>;
+	interrupts = <33 1>, <34 1>;
+	scl-gpios = <&gpiob 10 (GPIO_OPEN_DRAIN | GPIO_PULL_UP)>;
+	sda-gpios = <&gpiob 11 (GPIO_OPEN_DRAIN | GPIO_PULL_UP)>;
+};
+
+&timers2 {
+	st,prescaler = <71>;          /* 72 MHz / 72 = 1 MHz, 1 us per tick */
+	interrupts = <28 0>;          /* highest priority: STEP edges */
+	status = "okay";
+
+	stepgen_counter: counter {
+		compatible = "st,stm32-counter";
+		status = "okay";
+	};
+};
+
+&timers4 {
+	st,prescaler = <71>;          /* 1 us PWM resolution, 20000 counts per frame */
+	status = "okay";
+
+	pwm4: pwm {
+		compatible = "st,stm32-pwm";
+		pinctrl-0 = <&tim4_ch1_pwm_out_pb6>;
+		pinctrl-names = "default";
+		#pwm-cells = <3>;
+		status = "okay";
+	};
+};
+
+&iwdg {
+	status = "okay";
+};
+
+&flash0 {
+	partitions {
+		compatible = "fixed-partitions";
+		#address-cells = <1>;
+		#size-cells = <1>;
+
+		code_partition: partition@0 {
+			label = "code";
+			reg = <0x00000000 DT_SIZE_K(60)>;
+			read-only;
+		};
+
+		storage_partition: partition@f000 {
+			label = "storage";
+			reg = <0x0000f000 DT_SIZE_K(4)>;
+		};
+	};
+};

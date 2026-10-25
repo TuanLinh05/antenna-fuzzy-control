@@ -1,0 +1,183 @@
+{
+  "verified_date": "2026-10-11",
+  "currency": "VND",
+  "mechanical_total_vnd": 484820,
+  "items": [
+    {
+      "item": "MG946R servo 180° + bộ tay đi kèm",
+      "sku": "IC373",
+      "required": 1,
+      "purchase": 1,
+      "price": 98220,
+      "stock": 61,
+      "url": "https://www.thegioiic.com/mg946r-dong-co-servo-giam-toc-rc-180-do-rang-kim-loai-12-kg-cm-4-8-7-2-v",
+      "notes": "Thân 40×19×43 mm theo cửa hàng; dùng tay tròn và vít tâm trong bộ. Ảnh cửa hàng có các phụ kiện này; kiểm tra bộ nhận được.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "NEMA17 SL42STH40-1684A",
+      "sku": "IC5255",
+      "required": 1,
+      "purchase": 1,
+      "price": 210900,
+      "stock": 1,
+      "url": "https://www.thegioiic.com/sl42sth40-1684a-dong-co-buoc-nema17-42x42mm-1-8-0-4nm",
+      "notes": "Trục Ø5, nhô 20 mm, thân dài 40 mm, 1,68 A/pha; mẫu lỗ gá 31 mm theo NEMA17 danh định. Tồn chỉ 1.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Pulley GT2 20T, lỗ 5 mm, rãnh 7 mm",
+      "sku": "IC7387",
+      "required": 1,
+      "purchase": 1,
+      "price": 11400,
+      "stock": 59,
+      "url": "https://www.thegioiic.com/gt2-banh-rang-puly-20-rang-buoc-2mm-ranh-day-dai-7mm-lo-5mm",
+      "notes": "Rãnh nhận đai 6 mm; căn giữa vùng răng tại Z=73 mm. Chiều dài dọc trục pulley chưa có bản vẽ đầy đủ.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Dây vòng kín 2GT-280, rộng 6 mm",
+      "sku": "IC20188",
+      "required": 1,
+      "purchase": 1,
+      "price": 17100,
+      "stock": 50,
+      "url": "https://www.thegioiic.com/2gt-280-day-dai-140-rang-buoc-2-0-rong-6mm",
+      "notes": "280 mm / 140 răng / bước 2 mm. Đúng cấu hình CAD V2.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Vòng bi 608ZZ 8×22×7 mm",
+      "sku": "IC15606",
+      "required": 4,
+      "purchase": 4,
+      "price": 3420,
+      "stock": 1625,
+      "url": "https://www.thegioiic.com/608zz-bac-dan-vong-bi-trong-8mm-ngoai-22mm-day-7mm",
+      "notes": "2 vòng bi phương vị và 2 vòng bi nâng; không đổi sang 688ZZ.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Thanh trượt inox 304 Ø8×200 mm",
+      "sku": "IC17522",
+      "required": 1,
+      "purchase": 1,
+      "price": 19753,
+      "stock": 55,
+      "url": "https://www.thegioiic.com/thanh-truot-8mm-dai-20cm-inox-304",
+      "notes": "Tự cắt 110 + 40 + 30 mm; còn 20 mm cho đường cắt và sửa ba via. Phải thử độ trượt trong 608.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Vít M4×20 DIN912 304",
+      "sku": "IC10179",
+      "required": 20,
+      "purchase": 24,
+      "price": 1368,
+      "stock": 3529,
+      "url": "https://www.thegioiic.com/oc-luc-giac-m4-x-20mm-din912-304",
+      "notes": "Trụ 4; gá stepper 4; dầm 4; càng 4; gá servo 4. Mua dư 4.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Vít M3×8 DIN912 304",
+      "sku": "IC10152",
+      "required": 1,
+      "purchase": 10,
+      "price": 650,
+      "stock": 4250,
+      "url": "https://www.thegioiic.com/oc-luc-giac-m3-x-8mm-din912-304",
+      "notes": "Ép trục ở adapter servo. Tối thiểu 10, bội 5.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Vít M3×10 DIN912 304",
+      "sku": "IC10153",
+      "required": 6,
+      "purchase": 10,
+      "price": 673,
+      "stock": 16607,
+      "url": "https://www.thegioiic.com/oc-luc-giac-m3-x-10mm-din912-304",
+      "notes": "Motor 4 kèm đệm in 1 mm; giá chảo ép trục 2. Tối thiểu 10, bội 5.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Vít M3×12 DIN912 304",
+      "sku": "IC10154",
+      "required": 12,
+      "purchase": 15,
+      "price": 713,
+      "stock": 2700,
+      "url": "https://www.thegioiic.com/oc-luc-giac-m3-x-12mm-din912-304",
+      "notes": "Chân đế 4; tai servo 4; ép trục rotor 1; hub đầu thu 3. Tối thiểu 10, bội 5.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Vít M3×16 DIN912 304",
+      "sku": "IC10155",
+      "required": 2,
+      "purchase": 10,
+      "price": 866,
+      "stock": 9345,
+      "url": "https://www.thegioiic.com/oc-luc-giac-m3-x-16mm-din912-304",
+      "notes": "Kẹp 2 vòng chặn in. Tối thiểu 10, bội 5.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Vít M3×20 DIN912 304",
+      "sku": "IC10156",
+      "required": 7,
+      "purchase": 10,
+      "price": 1083,
+      "stock": 4654,
+      "url": "https://www.thegioiic.com/oc-luc-giac-m3-x-20mm-din912-304",
+      "notes": "Chảo vào giá 4; chân thanh đầu thu 3. Mua dư 3.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Vít M2×10 DIN912 304",
+      "sku": "IC10107",
+      "required": 2,
+      "purchase": 20,
+      "price": 496,
+      "stock": 2610,
+      "url": "https://www.thegioiic.com/oc-luc-giac-m2-x-10mm-din912-304",
+      "notes": "Ít nhất 2 lỗ đối xứng trên tay tròn servo. Tối thiểu 20, bội 10.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Đai ốc thép M3 lục giác thường",
+      "sku": "IC9122",
+      "required": 24,
+      "purchase": 30,
+      "price": 342,
+      "stock": 14943,
+      "url": "https://www.thegioiic.com/dai-oc-thep-m3",
+      "notes": "AF danh định 5,5 mm; dày khoảng 2,4 mm; không dùng loại mặt bích hoặc tán keo trong hốc. Tối thiểu 20, bội 10.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Đai ốc thép M4 lục giác thường",
+      "sku": "IC8318",
+      "required": 20,
+      "purchase": 30,
+      "price": 388,
+      "stock": 1013,
+      "url": "https://www.thegioiic.com/dai-oc-thep-m4",
+      "notes": "AF danh định 7 mm; dày khoảng 3,2 mm. V2 không cần đai ốc mỏng. Tối thiểu 20, bội 10.",
+      "verified_date": "2026-10-11"
+    },
+    {
+      "item": "Đai ốc đồng M2 lục giác",
+      "sku": "IC33241",
+      "required": 2,
+      "purchase": 10,
+      "price": 570,
+      "stock": 550,
+      "url": "https://www.thegioiic.com/dai-oc-dong-m2",
+      "notes": "Dùng cho adapter tay servo; CAD giả định AF 4 mm, dày ≤2,8 mm, cần đo thực. Tối thiểu 10, bội 5.",
+      "verified_date": "2026-10-11"
+    }
+  ]
+}

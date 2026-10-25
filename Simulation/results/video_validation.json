@@ -1,0 +1,23 @@
+{
+  "status": "PASS_ENCODED_AND_DECODED",
+  "duration_s": 12,
+  "width": 594,
+  "height": 644,
+  "frame_rate": 8,
+  "simulation_duration_s": 48,
+  "CAD_parameters": {
+    "yaw_inertia": 0.0059031355654538134,
+    "elevation_inertia": 0.00021665839584294197,
+    "yaw_inertia_coefficients": [
+      0.005886633327989511,
+      -1.6502237464303974E-5,
+      7.3142548048032686E-9
+    ],
+    "gravity_torque_max": 0.003088069400908174,
+    "ratio": 4,
+    "encoder_counts": 2400,
+    "microstep_angle_output_rad": 0.00049087385212340522,
+    "yaw_motor_running_torque": 0.12,
+    "prototype_velocity_limit_rad_s": 0.52359877559829882
+  }
+}

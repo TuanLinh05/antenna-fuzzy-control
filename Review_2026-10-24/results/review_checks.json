@@ -1,0 +1,92 @@
+{
+  "status": "LEGACY_NUMERICS_REPRODUCED_ACTUAL_HARDWARE_UNVALIDATED",
+  "MATLAB_version": "26.1.0.3251617 (R2026a) Update 2",
+  "fuzzy": {
+    "points": 1681,
+    "C_vs_FIS_max_error": 1.0000000005838672E-7,
+    "manual_vs_FIS_max_error": 3.3306690738754696E-16
+  },
+  "legacy_metrics": {
+    "steps": [
+      {
+        "time_s": 0,
+        "target_deg": 59.999999999999993,
+        "overshoot_percent": 0.37925414996712625,
+        "settling_2percent_s": 2.8569,
+        "tail_max_error_rad": 0.00010908307838430886
+      },
+      {
+        "time_s": 12,
+        "target_deg": 150.00000000000003,
+        "overshoot_percent": 0.28148529927790789,
+        "settling_2percent_s": 3.9423000000000012,
+        "tail_max_error_rad": 0.00010908307851931198
+      },
+      {
+        "time_s": 24,
+        "target_deg": 29.999999999999996,
+        "overshoot_percent": 0.190409670117424,
+        "settling_2percent_s": 4.9274000000000022,
+        "tail_max_error_rad": 0.00010908307831691832
+      },
+      {
+        "time_s": 36,
+        "target_deg": 90,
+        "overshoot_percent": 0.39422816842016395,
+        "settling_2percent_s": 2.8186999999999998,
+        "tail_max_error_rad": 0.00021816615636449654
+      }
+    ],
+    "worst_overshoot_percent": 0.39422816842016395,
+    "worst_tail_error_rad": 0.00021816615636449654,
+    "sum_settling_s": 14.545300000000003,
+    "rms_tracking_error_deg": 32.033393600525635,
+    "peak_speed_rad_s": 0.48379179762125862,
+    "peak_motor_torque_Nm": 0.04789118828757688,
+    "peak_belt_torque_Nm": 0.077671692305699092,
+    "elevation_tail_error_deg": 0.19333001151211968,
+    "first_fault_time_s": null,
+    "final_fault": 0,
+    "pass_tracking": true
+  },
+  "difference_from_stored_legacy_metrics": {
+    "tail_error_rad": 0,
+    "peak_speed_rad_s": 0,
+    "overshoot_percent": 0
+  },
+  "true_vs_encoder": [
+    {
+      "target_deg": 60,
+      "true_model_tail_error_deg": 0.00625000000771081,
+      "encoder_tail_error_deg": 7.1054273576010019E-15
+    },
+    {
+      "target_deg": 150,
+      "true_model_tail_error_deg": 0.0062500000154557256,
+      "encoder_tail_error_deg": 2.8421709430404007E-14
+    },
+    {
+      "target_deg": 30,
+      "true_model_tail_error_deg": 0.0062500000038561154,
+      "encoder_tail_error_deg": 3.5527136788005009E-15
+    },
+    {
+      "target_deg": 90,
+      "true_model_tail_error_deg": 0.012499999992286348,
+      "encoder_tail_error_deg": 1.4210854715202004E-14
+    }
+  ],
+  "elevation_audit": {
+    "simulated_tail_error_deg": 0.19333001151211968,
+    "included_in_existing_pass_tracking": false,
+    "simulation_has_25deg_s_command_ramp": true,
+    "firmware_maps_el_goal_directly": true
+  },
+  "encoder_resolution_deg": 0.15,
+  "step_command_resolution_deg": 0.028125,
+  "confirmed_actual_stepper": "Shinano Kenshi STP-43D2073-01",
+  "confirmed_actual_servo": "Hiwonder LD-1501MG",
+  "actual_stepper_parameters_identified": false,
+  "actual_servo_dynamics_identified": false,
+  "physical_hardware_validated": false
+}

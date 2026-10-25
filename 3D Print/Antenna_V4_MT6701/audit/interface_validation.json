@@ -1,0 +1,64 @@
+{
+  "status": "PASS_EXPORTED_GEOMETRY",
+  "checks": {
+    "ratio_is_exactly_4_to_1": true,
+    "belt_pitch_length_matches_280mm": true,
+    "small_pulley_engages_at_least_6_teeth": true,
+    "exported_rotor_has_80_tooth_grooves": true,
+    "motor_nominal_34mm_body_and_20mm_shaft_fit": true,
+    "motor_shaft_engages_pulley_hub_6mm": true,
+    "servo_ear_slots_cover_tested_patterns": true,
+    "round_horn_radial_slots_6p5_to_10p5mm": true,
+    "PCB_slots_and_nuts_accept_17p5_18_19mm_pitch": true,
+    "sensor_adjustment_XY_1p5mm_Z_1p5mm_collision_free": true,
+    "nominal_magnet_to_IC_surface_gap_1mm": true,
+    "nominal_PCB_underside_header_tail_clearance": true,
+    "lowest_fixed_bridge_hardware_above_55mm_foot_ground": true
+  },
+  "intersection_check_counts": {
+    "motor_body_and_pilot_in_tension_slots": 3,
+    "motor_M3_screws_in_slots": 12,
+    "servo_ear_screw_pattern_range": 36,
+    "round_horn_M2_bolt_radial_range": 6,
+    "round_horn_M2_nut_radial_range": 6,
+    "PCB_screw_pitch_range": 12,
+    "PCB_floating_nut_pitch_range": 12,
+    "sensor_XYZ_adjustment_clearance": 270,
+    "sensor_M3_adjustment_slots": 108,
+    "nominal_header_clearance": 2
+  },
+  "failures": [],
+  "ratio": 4.0,
+  "belt_pitch_length_mm": 280.0,
+  "motor_center_distance_mm": 87.91729590069451,
+  "tension_center_distance_range_mm": [
+    82.91729590069451,
+    92.91729590069451
+  ],
+  "belt_length_corresponding_to_tension_endpoints_mm": [
+    270.25339462214026,
+    289.77419253804044
+  ],
+  "small_pulley_wrap_deg": 154.906795124713,
+  "small_pulley_engaged_teeth": 8.605933062484056,
+  "exported_rotor_grooves_count": 80,
+  "full_step_output_deg": 0.45,
+  "microstep_output_deg": 0.028125,
+  "STEP_frequency_at_30deg_s": 1066.6666666666667,
+  "motor_rpm_at_30deg_s": 20.0,
+  "absolute_sensor_code_resolution_deg": 0.02197265625,
+  "nominal_magnet_to_IC_gap_mm": 1.0,
+  "sensor_PCB_hole_pitch_from_user_geometry_mm": 18.0,
+  "magnetic_field_strength_of_supplied_4x2mm_magnet_verified": false,
+  "motor_actual_shaft_diameter_verified": false,
+  "physical_fit_verified": false,
+  "limitations": [
+    "Exact 4:1 ratio assumes actual 20T commercial pulley and no tooth slip.",
+    "Adjustability tests check listed solid envelopes; they do not measure the actual module or print tolerances.",
+    "PCB thickness 1.6mm, IC height 1.7mm and centered IC are assumptions; center the actual IC using XY and set the gap using Z nuts.",
+    "Header modeled on the IC side, with solder tails trimmed to at most 1.5mm on the underside.",
+    "Supplied 4x2mm magnet is smaller than the datasheet reference; signal quality and absolute accuracy require physical checks.",
+    "Motor shaft diameter 5mm is taken from the drawing, while seller prose says 4.5mm; measure before selecting the pulley bore.",
+    "Servo ear pitch is validated over specified patterns, but the actual round horn holes and mounting-axis offset still require the fit gauge."
+  ]
+}

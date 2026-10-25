@@ -1,0 +1,47 @@
+{
+  "status": "PASS_SIMULATED",
+  "model_file": "antenna_dc_fuzzy.slx",
+  "solver": "ode4",
+  "fixed_step_s": 0.0001,
+  "controller_sample_s": 0.01,
+  "steps": 480001,
+  "independent_MATLAB_angle_difference_rad": 2.2204460492503131E-16,
+  "metrics": {
+    "steps": [
+      {
+        "time_s": 0,
+        "target_deg": 59.999999999999993,
+        "overshoot_percent": 0,
+        "settling_2percent_s": 2.3119,
+        "tail_max_error_rad": 2.1736992927845478E-6
+      },
+      {
+        "time_s": 12,
+        "target_deg": 150.00000000000003,
+        "overshoot_percent": 0,
+        "settling_2percent_s": 3.3579000000000008,
+        "tail_max_error_rad": 2.47471869352367E-6
+      },
+      {
+        "time_s": 24,
+        "target_deg": 29.999999999999996,
+        "overshoot_percent": 0,
+        "settling_2percent_s": 4.4134000000000029,
+        "tail_max_error_rad": 2.7611331822052776E-6
+      },
+      {
+        "time_s": 36,
+        "target_deg": 90,
+        "overshoot_percent": 0,
+        "settling_2percent_s": 2.3119000000000014,
+        "tail_max_error_rad": 2.1634709095330606E-6
+      }
+    ],
+    "worst_overshoot_percent": 0,
+    "worst_tail_error_rad": 2.7611331822052776E-6,
+    "sum_settling_s": 12.395100000000005,
+    "rms_tracking_error_deg": 28.379161472538208,
+    "peak_speed_rad_s": 0.49816054799093812,
+    "peak_voltage_V": 8.4108783046874844
+  }
+}

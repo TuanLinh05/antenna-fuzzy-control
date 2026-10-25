@@ -1,0 +1,210 @@
+{
+  "status": "PASS_MOVED_AND_REVALIDATED",
+  "date": "2026-10-24",
+  "moves": [
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/antenna_dc_fuzzy.slx",
+      "destination": "Simulation/antenna_dc_fuzzy.slx",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/antenna_fis.mat",
+      "destination": "Simulation/antenna_fis.mat",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/antenna_model_init.m",
+      "destination": "Simulation/antenna_model_init.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/antenna_sugeno25.fis",
+      "destination": "Simulation/antenna_sugeno25.fis",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/build_simulink_model.m",
+      "destination": "Simulation/build_simulink_model.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/cad_parameters.json",
+      "destination": "Simulation/cad_parameters.json",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/dc_control_transition.m",
+      "destination": "Simulation/dc_control_transition.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/dc_default_config.m",
+      "destination": "Simulation/dc_default_config.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/hardware_console.m",
+      "destination": "Simulation/hardware_console.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/make_antenna_fis.m",
+      "destination": "Simulation/make_antenna_fis.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/prototype_default_config.m",
+      "destination": "Simulation/prototype_default_config.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/README.md",
+      "destination": "Simulation/README.md",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/render_results.m",
+      "destination": "Simulation/render_results.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/results",
+      "destination": "Simulation/results",
+      "files": 34
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/run_extended_tests.m",
+      "destination": "Simulation/run_extended_tests.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/run_final_validation.m",
+      "destination": "Simulation/run_final_validation.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/run_prototype_smoke.m",
+      "destination": "Simulation/run_prototype_smoke.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/run_smoke.m",
+      "destination": "Simulation/run_smoke.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/score_steps.m",
+      "destination": "Simulation/score_steps.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/selected_dc_config.json",
+      "destination": "Simulation/selected_dc_config.json",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/sfun_dc_inner.m",
+      "destination": "Simulation/sfun_dc_inner.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/simulate_dc.m",
+      "destination": "Simulation/simulate_dc.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/simulate_prototype.m",
+      "destination": "Simulation/simulate_prototype.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/sugeno25.m",
+      "destination": "Simulation/sugeno25.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/tune_dc.m",
+      "destination": "Simulation/tune_dc.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/update_antenna.m",
+      "destination": "Simulation/update_antenna.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/verify_fuzzy.m",
+      "destination": "Simulation/verify_fuzzy.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/MATLAB/view_antenna.m",
+      "destination": "Simulation/view_antenna.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/build",
+      "destination": "Firmware/build",
+      "files": 9
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/build_firmware.py",
+      "destination": "Firmware/build_firmware.py",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/fuzzy_controller.c",
+      "destination": "Firmware/fuzzy_controller.c",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/fuzzy_controller.h",
+      "destination": "Firmware/fuzzy_controller.h",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/README.md",
+      "destination": "Firmware/README.md",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/startup_f103.S",
+      "destination": "Firmware/startup_f103.S",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/stm32f103c8.ld",
+      "destination": "Firmware/stm32f103c8.ld",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/stm32f103_main.c",
+      "destination": "Firmware/stm32f103_main.c",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/STM32/test_fuzzy.c",
+      "destination": "Firmware/test_fuzzy.c",
+      "files": 1
+    },
+    {
+      "source": "Simulation/hardware_console.m",
+      "destination": "Firmware/tools/hardware_console.m",
+      "files": 1
+    },
+    {
+      "source": "3D Print/Antenna_TheGioiIC_v3/DIEN_VA_DIEU_KHIEN.md",
+      "destination": "Firmware/DIEN_VA_DIEU_KHIEN.md",
+      "files": 1
+    }
+  ],
+  "firmware_binary_sha256": "e2904eaff4359e9c73f2165f60b9c02afce85384d385a1d345c6b1fe68df1eea",
+  "note": "Source files moved with byte hashes checked before targeted path/documentation edits.",
+  "firmware_rebuilt_from_new_directory": true,
+  "firmware_binary_unchanged": true,
+  "relative_README_links_checked": 14,
+  "MATLAB_FIS_equivalence_pass": true,
+  "MATLAB_CAD_import_pass": true,
+  "MATLAB_UART_tool_lookup_pass": true,
+  "Simulink_relocated_simulation_pass": true
+}

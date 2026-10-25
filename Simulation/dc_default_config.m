@@ -1,0 +1,6 @@
+function c=dc_default_config
+p=struct('Ra',1,'La',.005,'Kt',.1,'Kb',.1,'N',150, ...
+    'J',5+150^2*1e-4,'B',2+150^2*5e-5,'Tc',5,'epsilon',.001);
+c=struct('plant',p,'Ts',.01,'h',1e-4,'duration',48,'vmax',.48, ...
+    'accel',1.2,'error_width',.12,'kp_velocity',12,'ki_velocity',35,'mode','fuzzy');
+end

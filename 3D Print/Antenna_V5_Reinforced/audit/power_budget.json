@@ -1,0 +1,16 @@
+{
+  "status": "PASS_ASSUMED_POWER_BUDGET_NOT_MEASURED",
+  "input_V": 12,
+  "input_A": 5,
+  "input_capacity_W": 60,
+  "servo_output_V": 7,
+  "servo_peak_current_assumed_A": 3,
+  "buck_efficiency_assumed": 0.85,
+  "servo_input_power_estimate_W": 24.705882352941178,
+  "stepper_driver_input_budget_assumed_W": 15,
+  "MCU_logic_input_budget_assumed_W": 2,
+  "total_input_power_estimate_W": 41.705882352941174,
+  "estimated_input_current_A": 3.475490196078431,
+  "unused_input_budget_W": 18.294117647058826,
+  "physical_supply_transients_and_thermal_verified": false
+}

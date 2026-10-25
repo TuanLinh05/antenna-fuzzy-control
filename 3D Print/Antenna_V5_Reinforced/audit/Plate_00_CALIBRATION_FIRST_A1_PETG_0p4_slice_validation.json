@@ -1,0 +1,242 @@
+{
+  "file": "Plate_00_CALIBRATION_FIRST_A1_PETG_0p4.3mf",
+  "sha256": "e6bfa93d7124bbd1d6c76bc7f7796b9f7b4d460bd5968090edb07223189430b3",
+  "status": "PASS_SLICED",
+  "object_count": 12,
+  "estimated_hours": 4.9,
+  "estimated_filament_g": 51.55,
+  "slicer_warning": "",
+  "generated_support_segments": 0,
+  "printed_object_max_Z_mm": {
+    "103": 4.0,
+    "108": 2.0,
+    "111": 0.5,
+    "112": 0.5,
+    "110": 0.5,
+    "109": 0.5,
+    "106": 5.0,
+    "105": 1.0,
+    "107": 5.0,
+    "104": 8.0,
+    "102": 8.0,
+    "101": 9.0
+  },
+  "extruded_path_XY_bounds_mm": [
+    [
+      14.422,
+      18.422
+    ],
+    [
+      198.578,
+      220.578
+    ]
+  ],
+  "features": {
+    "Brim": 3275,
+    "Outer wall": 4870,
+    "Inner wall": 29566,
+    "Gap infill": 19332,
+    "Bottom surface": 1984,
+    "Internal solid infill": 40522,
+    "Top surface": 2266,
+    "Sparse infill": 36557,
+    "Floating vertical shell": 2420,
+    "Bridge": 1316
+  },
+  "parts": [
+    {
+      "name": "16_608_fit_coupon",
+      "bounds_mm": [
+        [
+          18.0,
+          27.0,
+          0.0
+        ],
+        [
+          102.0,
+          57.0,
+          9.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "17_shaft_fit_coupon",
+      "bounds_mm": [
+        [
+          39.0,
+          72.0,
+          0.0
+        ],
+        [
+          81.0,
+          88.0,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "20_LD1501MG_mount_fit_gauge",
+      "bounds_mm": [
+        [
+          129.0,
+          22.0,
+          0.0
+        ],
+        [
+          185.0,
+          92.0,
+          4.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "23_D_shaft_fit_gauge",
+      "bounds_mm": [
+        [
+          35.0,
+          110.0,
+          0.0
+        ],
+        [
+          73.0,
+          130.0,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "26_MT6701_PCB_fit_gauge",
+      "bounds_mm": [
+        [
+          103.0,
+          116.0,
+          0.0
+        ],
+        [
+          131.0,
+          144.0,
+          1.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "27_4mm_magnet_fit_gauge",
+      "bounds_mm": [
+        [
+          163.0,
+          118.5,
+          0.0
+        ],
+        [
+          195.0,
+          133.5,
+          5.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "28_motor_shaft_fit_gauge",
+      "bounds_mm": [
+        [
+          32.0,
+          153.0,
+          0.0
+        ],
+        [
+          76.0,
+          171.0,
+          5.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "30_NEMA17_mount_fit_gauge",
+      "bounds_mm": [
+        [
+          99.0,
+          167.0,
+          0.0
+        ],
+        [
+          149.0,
+          217.0,
+          2.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "29_servo_ear_0p5mm_spacer",
+      "bounds_mm": [
+        [
+          176.9,
+          178.901,
+          0.0
+        ],
+        [
+          183.1,
+          185.099,
+          0.5
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "29_servo_ear_0p5mm_spacer",
+      "bounds_mm": [
+        [
+          189.9,
+          178.901,
+          0.0
+        ],
+        [
+          196.1,
+          185.099,
+          0.5
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "29_servo_ear_0p5mm_spacer",
+      "bounds_mm": [
+        [
+          176.9,
+          193.901,
+          0.0
+        ],
+        [
+          183.1,
+          200.099,
+          0.5
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "29_servo_ear_0p5mm_spacer",
+      "bounds_mm": [
+        [
+          189.9,
+          193.901,
+          0.0
+        ],
+        [
+          196.1,
+          200.099,
+          0.5
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    }
+  ],
+  "Gcode_sha256": "0d15b3fe4e5429f2299a54a137ca4f66d152138f04109d57d199b6f0b2e89861",
+  "thumbnail_added_after_slicing": true
+}

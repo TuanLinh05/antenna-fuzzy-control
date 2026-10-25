@@ -1,0 +1,93 @@
+{
+  "file": "Plate_05_MT6701_and_fit_gauges_A1_PETG_0p4.3mf",
+  "sha256": "e33d36b0a506e00e06cc6a1ad8f1d3f55b849c7e140c4e384be183b48fedc46d",
+  "status": "PASS_SLICED",
+  "object_count": 3,
+  "estimated_hours": 8.02,
+  "estimated_filament_g": 84.41,
+  "slicer_warning": "",
+  "generated_support_segments": 9569,
+  "printed_object_max_Z_mm": {
+    "103": 14.0,
+    "102": 6.7,
+    "101": 64.0
+  },
+  "extruded_path_XY_bounds_mm": [
+    [
+      21.422,
+      40.422
+    ],
+    [
+      210.25,
+      137.766
+    ]
+  ],
+  "features": {
+    "Support": 4750,
+    "Outer wall": 17204,
+    "Inner wall": 86334,
+    "Gap infill": 7415,
+    "Brim": 1212,
+    "Bottom surface": 850,
+    "Internal solid infill": 18278,
+    "Support transition": 755,
+    "Support interface": 4064,
+    "Sparse infill": 44495,
+    "Floating vertical shell": 1355,
+    "Top surface": 1890,
+    "Overhang wall": 330,
+    "Bridge": 565
+  },
+  "parts": [
+    {
+      "name": "22_MT6701_open_U_bridge",
+      "bounds_mm": [
+        [
+          25.0,
+          44.0,
+          0.0
+        ],
+        [
+          105.0,
+          86.0,
+          64.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "24_MT6701_3point_carrier",
+      "bounds_mm": [
+        [
+          118.8076,
+          89.8076,
+          0.0
+        ],
+        [
+          163.1924,
+          134.1924,
+          6.7
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "25_rotating_4x2_magnet_cap",
+      "bounds_mm": [
+        [
+          185.5,
+          47.0031,
+          0.0
+        ],
+        [
+          208.5,
+          66.9969,
+          14.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    }
+  ],
+  "Gcode_sha256": "2b031ca0db9a272e05626636afe03032931c8826d2a3adb8f0864f495739aa3b",
+  "thumbnail_added_after_slicing": true
+}

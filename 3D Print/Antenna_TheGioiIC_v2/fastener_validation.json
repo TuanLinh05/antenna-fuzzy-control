@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "intersection_checks": 113626,
+  "bolt_counts": {
+    "M4x20": 20,
+    "M3x12": 12,
+    "M3x16": 2,
+    "M3x10": 6,
+    "M3x8": 1,
+    "M3x20": 7,
+    "M2x10": 2
+  },
+  "failures": [],
+  "limitations": [
+    "Nominal DIN912 heads and nominal hex nuts, no thread form.",
+    "Motor tapped-hole volumes and prepared holes in the supplied servo horn are intentional mates and excluded.",
+    "Real servo horn diameter, thickness and hole locations must be checked before print; M2 through-holes may need opening to 2.2 mm.",
+    "Screw pairs and threaded nuts overlap intentionally and are excluded."
+  ]
+}

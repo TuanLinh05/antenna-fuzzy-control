@@ -1,0 +1,13 @@
+{
+  "status": "PASS_REBUILT_C_HOST_TESTS",
+  "compiler_flags": "-std=c11 -O2 -Wall -Wextra -Werror",
+  "host_test_output": "PASS: 40401 fuzzy grid points; symmetry, bounds, monotonicity, wrap, deadband",
+  "rebuilt_vectors_equal_existing_vectors": true,
+  "vector_count": 1681,
+  "source_sha256": {
+    "fuzzy_controller.c": "01cbc9cd2153ccd9c103201a7227324fdf796785b9e434cc0205cdec7f298fe5",
+    "fuzzy_controller.h": "0495266f5959ecac84b449d4e746e0548e04c262c4aecb032fe8e46f938eacc9",
+    "test_fuzzy.c": "6c62e29c5c405843ce35db435c2a57c68136e7165c0135e8a975636874f2ec45"
+  },
+  "hardware_tested": false
+}

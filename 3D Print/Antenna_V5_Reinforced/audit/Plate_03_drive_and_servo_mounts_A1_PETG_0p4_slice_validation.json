@@ -1,0 +1,161 @@
+{
+  "file": "Plate_03_drive_and_servo_mounts_A1_PETG_0p4.3mf",
+  "sha256": "60ee53f2bfbeafe4220c8338ac1230240c45ef6c14f0125b87f394c4ba2688e3",
+  "status": "PASS_SLICED",
+  "object_count": 7,
+  "estimated_hours": 52.28,
+  "estimated_filament_g": 606.95,
+  "slicer_warning": "",
+  "generated_support_segments": 36219,
+  "printed_object_max_Z_mm": {
+    "104": 80.0,
+    "105": 48.0,
+    "106": 37.0,
+    "107": 18.0,
+    "103": 58.0,
+    "102": 32.0,
+    "101": 32.0
+  },
+  "extruded_path_XY_bounds_mm": [
+    [
+      7.422,
+      11.422
+    ],
+    [
+      245.61,
+      252.565
+    ]
+  ],
+  "features": {
+    "Support": 21232,
+    "Brim": 3218,
+    "Outer wall": 51305,
+    "Inner wall": 366344,
+    "Gap infill": 41030,
+    "Bottom surface": 3173,
+    "Internal solid infill": 86084,
+    "Sparse infill": 1695597,
+    "Top surface": 5519,
+    "Floating vertical shell": 19630,
+    "Support interface": 12829,
+    "Bridge": 8873,
+    "Support transition": 2158,
+    "Overhang wall": 2082
+  },
+  "parts": [
+    {
+      "name": "08_right_bearing_arm",
+      "bounds_mm": [
+        [
+          11.0,
+          15.0,
+          0.0
+        ],
+        [
+          147.0,
+          75.0,
+          32.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "09_left_bearing_arm",
+      "bounds_mm": [
+        [
+          11.0,
+          81.0,
+          0.0
+        ],
+        [
+          147.0,
+          141.0,
+          32.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "02_azimuth_bearing_tower",
+      "bounds_mm": [
+        [
+          11.0,
+          156.0131,
+          0.0
+        ],
+        [
+          95.0,
+          239.9869,
+          58.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "03_stepper_tension_bridge",
+      "bounds_mm": [
+        [
+          164.0,
+          14.0,
+          0.0
+        ],
+        [
+          234.0,
+          70.0,
+          80.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "10_LD1501MG_reinforced_carrier",
+      "bounds_mm": [
+        [
+          156.0,
+          77.0,
+          0.0
+        ],
+        [
+          242.0,
+          149.0,
+          48.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "04_GT2_80T_integrated_rotor",
+      "bounds_mm": [
+        [
+          148.0,
+          155.0149,
+          0.0
+        ],
+        [
+          244.0,
+          250.9851,
+          37.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "11_servo_horn_shaft_coupler",
+      "bounds_mm": [
+        [
+          107.0,
+          212.0056,
+          0.0
+        ],
+        [
+          143.0,
+          247.9944,
+          18.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    }
+  ],
+  "Gcode_sha256": "ebf09ed957706c29b0f0256af44af29f503d22e3604128faf5f4e2e5fed5f85f",
+  "thumbnail_added_after_slicing": true
+}

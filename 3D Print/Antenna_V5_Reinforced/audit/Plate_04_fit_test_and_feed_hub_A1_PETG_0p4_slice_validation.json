@@ -1,0 +1,246 @@
+{
+  "file": "Plate_04_fit_test_and_feed_hub_A1_PETG_0p4.3mf",
+  "sha256": "a5bcfcc6aa07cd64026ceae794281b6b18a4f50874c8f8a285d7f3bea9e79f54",
+  "status": "PASS_SLICED",
+  "object_count": 12,
+  "estimated_hours": 13.49,
+  "estimated_filament_g": 146.03,
+  "slicer_warning": "",
+  "generated_support_segments": 2078,
+  "printed_object_max_Z_mm": {
+    "109": 1.0,
+    "110": 1.0,
+    "111": 1.0,
+    "112": 1.0,
+    "101": 24.0,
+    "103": 8.0,
+    "102": 8.0,
+    "107": 55.0,
+    "106": 55.0,
+    "105": 55.0,
+    "104": 55.0,
+    "108": 2.0
+  },
+  "extruded_path_XY_bounds_mm": [
+    [
+      6.508,
+      37.423
+    ],
+    [
+      187.078,
+      186.746
+    ]
+  ],
+  "features": {
+    "Brim": 8743,
+    "Outer wall": 10970,
+    "Inner wall": 61695,
+    "Gap infill": 12851,
+    "Support": 1493,
+    "Bottom surface": 479,
+    "Internal solid infill": 25459,
+    "Top surface": 1504,
+    "Sparse infill": 609764,
+    "Overhang wall": 272,
+    "Floating vertical shell": 2560,
+    "Support transition": 150,
+    "Support interface": 435,
+    "Bridge": 1973
+  },
+  "parts": [
+    {
+      "name": "15_feed_hub",
+      "bounds_mm": [
+        [
+          124.0,
+          41.0,
+          0.0
+        ],
+        [
+          152.0,
+          68.9962,
+          24.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "18_printed_split_shaft_collar",
+      "bounds_mm": [
+        [
+          117.5037,
+          91.0,
+          0.0
+        ],
+        [
+          142.5,
+          115.0,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "18_printed_split_shaft_collar",
+      "bounds_mm": [
+        [
+          158.5037,
+          91.0,
+          0.0
+        ],
+        [
+          183.5,
+          115.0,
+          8.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "19_bolted_printed_foot",
+      "bounds_mm": [
+        [
+          12.0,
+          127.005,
+          0.0
+        ],
+        [
+          44.0,
+          158.995,
+          55.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "19_bolted_printed_foot",
+      "bounds_mm": [
+        [
+          48.0,
+          127.005,
+          0.0
+        ],
+        [
+          80.0,
+          158.995,
+          55.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "19_bolted_printed_foot",
+      "bounds_mm": [
+        [
+          84.0,
+          127.005,
+          0.0
+        ],
+        [
+          116.0,
+          158.995,
+          55.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "19_bolted_printed_foot",
+      "bounds_mm": [
+        [
+          120.0,
+          127.005,
+          0.0
+        ],
+        [
+          152.0,
+          158.995,
+          55.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "05_bearing_spacer",
+      "bounds_mm": [
+        [
+          8.25,
+          102.2518,
+          0.0
+        ],
+        [
+          19.75,
+          113.7482,
+          2.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          26.0,
+          177.0012,
+          0.0
+        ],
+        [
+          34.0,
+          184.9988,
+          1.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          42.0,
+          177.0012,
+          0.0
+        ],
+        [
+          50.0,
+          184.9988,
+          1.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          58.0,
+          177.0012,
+          0.0
+        ],
+        [
+          66.0,
+          184.9988,
+          1.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    },
+    {
+      "name": "21_M3_motor_screw_washer_1mm",
+      "bounds_mm": [
+        [
+          74.0,
+          177.0012,
+          0.0
+        ],
+        [
+          82.0,
+          184.9988,
+          1.0
+        ]
+      ],
+      "CAD_volume_unchanged": true
+    }
+  ],
+  "Gcode_sha256": "3ab2ad37f44840e4bd38d858b933224a2e72bee70f8b8b8fdbf09c269880f6bb",
+  "thumbnail_added_after_slicing": true
+}

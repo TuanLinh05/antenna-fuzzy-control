@@ -1,0 +1,367 @@
+[
+  {
+    "path": "3MF_plates/Plate_01_base_crossbeam.3mf",
+    "bytes": 206152,
+    "sha256": "00e394088a9e83ea2ea5f8bdb163fc70da834573b56885559e538c6a36a3ad44"
+  },
+  {
+    "path": "3MF_plates/Plate_02_dish_cradle_feed_arms.3mf",
+    "bytes": 255179,
+    "sha256": "4683be598556e843166f836b98f018b5d9a03ed43b7df74a75958510d58fdbfd"
+  },
+  {
+    "path": "3MF_plates/Plate_03_drive_and_servo_mounts.3mf",
+    "bytes": 387091,
+    "sha256": "d95c2f09b6f2d09e7f85eaadbc4885db20e5fce327c00c07f74f2e5d40bb913a"
+  },
+  {
+    "path": "3MF_plates/Plate_04_fit_test_and_feed_hub.3mf",
+    "bytes": 231233,
+    "sha256": "5dc2cd661819f821230dd1d1dfbb0ad210d7e02a3a2841f6baf4b8d10ec7a25d"
+  },
+  {
+    "path": "assembly_validation.json",
+    "bytes": 786,
+    "sha256": "f212037c86339becdd948f6adac2bf76a59d01fa9abedf67da99d7a9bf9a30aa"
+  },
+  {
+    "path": "audit_m4.py",
+    "bytes": 7708,
+    "sha256": "5dce42897acd2cae0835280c25777f5e147f4443e596bad38a9b8c3a56cfbd3a"
+  },
+  {
+    "path": "build_model.py",
+    "bytes": 20563,
+    "sha256": "da59c95e9440ac8073717ab92a24e943994ff86eb0b64cc5eb105ddf1e9cdf0b"
+  },
+  {
+    "path": "DANH_SACH_MUA_THEGIOIIC.md",
+    "bytes": 6927,
+    "sha256": "5e8fb90154eae366368a9511f4c702cabe134736409940324e0a7dedf93ae8a1"
+  },
+  {
+    "path": "delivery_validation.json",
+    "bytes": 10987,
+    "sha256": "b045f8ddfe27e40096fa82905422e88da9ee3800ca6242ab5f42ddf740f62a80"
+  },
+  {
+    "path": "fastener_validation.json",
+    "bytes": 646,
+    "sha256": "bda8e99808d0a8d03040a693d8378529503a841f35435f7d4712884265c068c0"
+  },
+  {
+    "path": "hardware_BOM.csv",
+    "bytes": 3865,
+    "sha256": "7df08b8a5f6ef7c21d8b13bc640a0fc873e11df9816845daac99ca36cb0d8796"
+  },
+  {
+    "path": "HUONG_DAN_LAP_RAP.md",
+    "bytes": 14354,
+    "sha256": "163ed8c2e85dac9d25d90d6b39ffc6ef74677c1b9355ce08200b0f29f647e8de"
+  },
+  {
+    "path": "KIEM_TRA_OC_M4.md",
+    "bytes": 4173,
+    "sha256": "1392668fd9c75690505d8705cb69853da954bc7b8d55969e2d0de82eb69296a4"
+  },
+  {
+    "path": "m4_audit.json",
+    "bytes": 20424,
+    "sha256": "65855d41c11d371f39389a0a5adbcbcee698a2ac45760681b8fcd7b7162b9db4"
+  },
+  {
+    "path": "make_preview.py",
+    "bytes": 8821,
+    "sha256": "c2f68ff2b817a86b272d305b3aa30c8c5073f2f9cdee8009a5c64b1813a28812"
+  },
+  {
+    "path": "mesh_validation.json",
+    "bytes": 6250,
+    "sha256": "fa69cba2a43afa059c125aef71e95f5602f259db8c2606a4cf2fe87f9f176ec3"
+  },
+  {
+    "path": "pack_print_plates.py",
+    "bytes": 3986,
+    "sha256": "ef98afac4a89758844abab921d58260cabd38a466ee178782a073108023f0fdb"
+  },
+  {
+    "path": "package_delivery.py",
+    "bytes": 3843,
+    "sha256": "8fba0c36741a930beeab303d71a6ad61907b22bf2dd4be3539d910f717d99fa3"
+  },
+  {
+    "path": "parameters.json",
+    "bytes": 553,
+    "sha256": "42cc1fc247a667c81a4817e801a3f003da252aa3efeaa3eea875e13a8465410a"
+  },
+  {
+    "path": "plate_validation.json",
+    "bytes": 24630,
+    "sha256": "89767a72e244bcbb5df974762bf6cd71b74e722d537a517830b21c4a5860afbc"
+  },
+  {
+    "path": "preview/assembly_front.png",
+    "bytes": 121688,
+    "sha256": "04b253ffcbbf375e4f161616cb2de94785be97b81d7e92b2437a98e934befd3f"
+  },
+  {
+    "path": "preview/assembly_rear.png",
+    "bytes": 100886,
+    "sha256": "fe55210021af370aa096bd0856b6049a544d43c0f4de17e70ba69721320a0952"
+  },
+  {
+    "path": "preview/elevation_0.png",
+    "bytes": 126606,
+    "sha256": "6b74274ac447503a2191069a03550e82103c769aaa835951c5837f7504e2c824"
+  },
+  {
+    "path": "preview/elevation_180.png",
+    "bytes": 104501,
+    "sha256": "c887a381845b376778e7d6251d78673983f5799b961218c0e96b64f0c802206a"
+  },
+  {
+    "path": "preview/elevation_90.png",
+    "bytes": 100820,
+    "sha256": "ea4f0dece5f5e09c09d6cc7f5b178985624aae7d80050a674757bf50799c59cb"
+  },
+  {
+    "path": "preview/mesh_data.json",
+    "bytes": 2075077,
+    "sha256": "ae71a64b900ef99af87dd29717c501baeb4bdd2ff38e069731e99bc7ba83735f"
+  },
+  {
+    "path": "printed_parts.csv",
+    "bytes": 977,
+    "sha256": "2029746ef87f7c43bddafb4f0dbaa86861765fcb0339d59e31590642549ddaf3"
+  },
+  {
+    "path": "procurement.json",
+    "bytes": 6419,
+    "sha256": "430635a855986343e271de01c8698a8dc2f62ed702a72f1852af50406965d762"
+  },
+  {
+    "path": "STEP/01_base.step",
+    "bytes": 149740,
+    "sha256": "b15cf16a13486dc8adc79abc678f819e1b02eb453f8016487dd132af96d925af"
+  },
+  {
+    "path": "STEP/02_azimuth_bearing_tower.step",
+    "bytes": 42071,
+    "sha256": "4af15f4043330444205734753708b12cce61a968c84513b61d0f269ba1ad6404"
+  },
+  {
+    "path": "STEP/03_stepper_tension_bridge.step",
+    "bytes": 166184,
+    "sha256": "5fdc211901f9cbf7a0f0c1a0ff2837c37042bb13708ff0c40445cb2f7d7f84e6"
+  },
+  {
+    "path": "STEP/04_GT2_80T_integrated_rotor.step",
+    "bytes": 7451245,
+    "sha256": "ce36923ed3ff0d2ffe707def9085d5e5fe6d9675344402fafee73efdef054763"
+  },
+  {
+    "path": "STEP/05_bearing_spacer.step",
+    "bytes": 9433,
+    "sha256": "e19adfcd720e40bcb8f20152bbe3686962c7ea470e5294dd5e33b7d07ee4277c"
+  },
+  {
+    "path": "STEP/07_fork_crossbeam.step",
+    "bytes": 166707,
+    "sha256": "5020c2e52576679ed516d30548b17ce83af5fb39a04ed4969594445b05895a4b"
+  },
+  {
+    "path": "STEP/08_right_bearing_arm.step",
+    "bytes": 40577,
+    "sha256": "204efae232e85214a607fe07489e1fa127783bed68e24ebcf0bb003941251df4"
+  },
+  {
+    "path": "STEP/09_left_bearing_arm.step",
+    "bytes": 144817,
+    "sha256": "a19843fd888236b8a9fc333ca00ced5e6bf0700c53edf0445f6abcddaa6499e7"
+  },
+  {
+    "path": "STEP/10_MG946R_short_screw_carrier.step",
+    "bytes": 273441,
+    "sha256": "1d65150faa80927dcbca1fb038f503501f4eda79333f66eec5b728f301d682c1"
+  },
+  {
+    "path": "STEP/11_servo_horn_shaft_coupler.step",
+    "bytes": 269906,
+    "sha256": "f7b444f01572db3238788311fc9265572492419e18f805e0ba0b57c05335afd4"
+  },
+  {
+    "path": "STEP/12_parabolic_dish_160mm.step",
+    "bytes": 487474,
+    "sha256": "35387947f46604d2ddea3449f6199a985c2ae8b7e7257308a21090070276840f"
+  },
+  {
+    "path": "STEP/13_dish_cradle.step",
+    "bytes": 289435,
+    "sha256": "a27410b9a237a9aa4fadac510309e470eb7f528474001b12d42cd701107942f7"
+  },
+  {
+    "path": "STEP/14_feed_strut.step",
+    "bytes": 102637,
+    "sha256": "48c8a8bdf2181663934ebaf0fa04d0c223920d5acb42474fe3f5dfa033e76999"
+  },
+  {
+    "path": "STEP/15_feed_hub.step",
+    "bytes": 76618,
+    "sha256": "13d5b8a95e14c8c6851e69ae10929c2c5039f70299d89cb4042956c4e383bb18"
+  },
+  {
+    "path": "STEP/16_608_fit_coupon.step",
+    "bytes": 41527,
+    "sha256": "74d8009ed3f8b7ef39aa6927ffdb173bb6ffae2a521ce767b0de6d450a6f3b5c"
+  },
+  {
+    "path": "STEP/17_shaft_fit_coupon.step",
+    "bytes": 29647,
+    "sha256": "0c7632752b8177d689d49ea5fe1cf744966dc65277b27919afacfc3140af5a65"
+  },
+  {
+    "path": "STEP/18_printed_split_shaft_collar.step",
+    "bytes": 151688,
+    "sha256": "be88a070bec8b57dee9f315d5a3caa584c73dbb13b2f3cb046b26b0fc5091abb"
+  },
+  {
+    "path": "STEP/19_bolted_printed_foot.step",
+    "bytes": 32268,
+    "sha256": "1fd32e9fc27171f633e7e6124ab1d8ae834d71679b85be59cad7085d866cb538"
+  },
+  {
+    "path": "STEP/20_MG946R_mount_fit_gauge.step",
+    "bytes": 136257,
+    "sha256": "d69e98fc7bee627f4e9c22a1c41e6b8570d7bc312a98aad1ec878556b173ef87"
+  },
+  {
+    "path": "STEP/21_M3_motor_screw_washer_1mm.step",
+    "bytes": 9427,
+    "sha256": "ad38b58b7ae44eddfe4ea0b6e2f6957e1739f73eb814f1f9b00b1061b902ab57"
+  },
+  {
+    "path": "STEP/ASSEMBLY_with_hardware_envelopes.step",
+    "bytes": 13204858,
+    "sha256": "6f27eaaec788b8e0b1fac17fcd00232934025cb9d3b7e5ba25f9d4b28444733b"
+  },
+  {
+    "path": "STL/01_base.stl",
+    "bytes": 684084,
+    "sha256": "3c2b273dbd6a98fc7cc6d528767cdeb72899913c17946d9bb3f3c90f7a47cbb5"
+  },
+  {
+    "path": "STL/02_azimuth_bearing_tower.stl",
+    "bytes": 227684,
+    "sha256": "9c24d1813c25f87a2742a2bc035f8accfe674e546e91c392f83e54c54b27ac99"
+  },
+  {
+    "path": "STL/03_stepper_tension_bridge.stl",
+    "bytes": 233684,
+    "sha256": "77c03465ec9d2e05e9c54b918e9d18b143597ec8f146471559e92b414ececef2"
+  },
+  {
+    "path": "STL/04_GT2_80T_integrated_rotor.stl",
+    "bytes": 657184,
+    "sha256": "7d51cd72619179bc6277d5f0e75377a33efd1293bf198a78f339e3e0b4ef27cd"
+  },
+  {
+    "path": "STL/05_bearing_spacer.stl",
+    "bytes": 50484,
+    "sha256": "d4f944997eac74fa476eb7f3363dd825aefe17e80fcb8f3251a3fd40ccc5c926"
+  },
+  {
+    "path": "STL/07_fork_crossbeam.stl",
+    "bytes": 259684,
+    "sha256": "dc38e8acfc4d948e9b23b5948805191ca2b759527fc435779a1f2be24831eff4"
+  },
+  {
+    "path": "STL/08_right_bearing_arm.stl",
+    "bytes": 102484,
+    "sha256": "28f0a4e1bab0619a80ec49a80cb26f8586f8061df08c686c5ea3b996745849e0"
+  },
+  {
+    "path": "STL/09_left_bearing_arm.stl",
+    "bytes": 208884,
+    "sha256": "a5fb750a204aa0dfaf5f5543bdddd0186868a7dc056bbcad25fa40acce28bfe5"
+  },
+  {
+    "path": "STL/10_MG946R_short_screw_carrier.stl",
+    "bytes": 168084,
+    "sha256": "4a3d18f52cd9b9a25e29abf45237eb31e99641367232417cbdc1d04434c14c77"
+  },
+  {
+    "path": "STL/11_servo_horn_shaft_coupler.stl",
+    "bytes": 341184,
+    "sha256": "87b90b95c7bd76eabe6a30bb05fb54f188a25055c755da257addbe22dcb034cf"
+  },
+  {
+    "path": "STL/12_parabolic_dish_160mm.stl",
+    "bytes": 657184,
+    "sha256": "03105808576daa36578829b6c56ded02f6bd391948bfddf6ac821e1ba08f6d83"
+  },
+  {
+    "path": "STL/13_dish_cradle.stl",
+    "bytes": 225084,
+    "sha256": "2fd1b9ffd13a11659f9c48dec96df038ff00ac6da116685bccbbe8e29b360549"
+  },
+  {
+    "path": "STL/14_feed_strut.stl",
+    "bytes": 90184,
+    "sha256": "4749ae5714fbc4ca20fdb0b0b0a009f9d90314cc166b34e30a6a29af6e9e9017"
+  },
+  {
+    "path": "STL/15_feed_hub.stl",
+    "bytes": 153884,
+    "sha256": "f574af992c9739a25079ee040c581d439a97e75ae5226eb719ce2c0edd1232fd"
+  },
+  {
+    "path": "STL/16_608_fit_coupon.stl",
+    "bytes": 152484,
+    "sha256": "3b3b08206033d0875127888ac8358d7eb8a0437a99a0736fa9ba4e91ae197fb6"
+  },
+  {
+    "path": "STL/17_shaft_fit_coupon.stl",
+    "bytes": 76884,
+    "sha256": "a98ee54efe53cf6f4055dc7bcd2ff31aa9b7c6403368a3d40fbc39c4e171533a"
+  },
+  {
+    "path": "STL/18_printed_split_shaft_collar.stl",
+    "bytes": 136584,
+    "sha256": "adfdfa0d2a21fe790646a9b5eac4c3bdec19294a559e4029fc8c38f4d2e9ec19"
+  },
+  {
+    "path": "STL/19_bolted_printed_foot.stl",
+    "bytes": 51684,
+    "sha256": "356efed22e4d37a79766ab6d0aac56d47b88ab79eebe66838b8efdb298c085a4"
+  },
+  {
+    "path": "STL/20_MG946R_mount_fit_gauge.stl",
+    "bytes": 59284,
+    "sha256": "2b0c834acf4a70910f957da6c22d5ab6e35307ffc57381cec9ab04c173fa1548"
+  },
+  {
+    "path": "STL/21_M3_motor_screw_washer_1mm.stl",
+    "bytes": 50484,
+    "sha256": "6f8ad4212a4c96f139222d3c856bcf4b266fa2674a29b399f615f724f5925a0e"
+  },
+  {
+    "path": "validate_assembly.py",
+    "bytes": 3051,
+    "sha256": "fc9837acb9c37d50230fbb5cadbe78bee7591b943d54a4910d9a830d370c73af"
+  },
+  {
+    "path": "validate_fasteners.py",
+    "bytes": 6191,
+    "sha256": "f0eb53432cbf4a354635ac3e2b7bbeb748f166d227b17c9bc21cda0332dc0a68"
+  },
+  {
+    "path": "viewer_validation.json",
+    "bytes": 493,
+    "sha256": "03d76012faad63181330734cd13ffe1a012094c637b7c5bf92a62b339ac6146c"
+  },
+  {
+    "path": "XEM_MO_HINH_3D.html",
+    "bytes": 2081394,
+    "sha256": "d4ed42c17ee03fdeb94b54e647c9f9c6e9c08d4f4dad97e7268ebe69aacbb037"
+  }
+]

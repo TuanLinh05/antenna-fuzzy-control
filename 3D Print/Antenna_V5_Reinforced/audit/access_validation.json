@@ -1,0 +1,39 @@
+{
+  "status": "PASS_ACCESS_ENVELOPES",
+  "counts": {
+    "M4_head_insertion_from_outer_face": 12,
+    "M4_3mm_hex_key_path": 12,
+    "sensor_nut_tool_access_from_front": 42,
+    "sensor_stud_withdrawal_nuts_removed": 84,
+    "tray_lowering_after_three_studs_removed": 78,
+    "tray_front_removal_path": 130
+  },
+  "failures": [],
+  "sensor_support_points_mm": [
+    [
+      -18.0,
+      18.0
+    ],
+    [
+      18.0,
+      18.0
+    ],
+    [
+      0.0,
+      -18.0
+    ]
+  ],
+  "support_triangle_area_mm2": 648.0,
+  "removal_sequence": [
+    "Switch off motion power; support the tray.",
+    "Securely raise/support the assembly to leave at least 30mm below the M3 stud heads for withdrawal; the feet alone leave only 10mm.",
+    "Remove all three M3x25 studs and their nuts while holding the tray.",
+    "Lower tray by 3mm and slide toward negative Y through the open front.",
+    "Install/service PCB and M2 screws with tray outside; reinstall, align IC and reset the gap."
+  ],
+  "limitations": [
+    "Tool paths use stated envelopes, not every available screwdriver or spanner.",
+    "Stud withdrawal assumes at least 30mm clearance below the screw heads; the 55mm feet alone do not provide it.",
+    "PCB dimensions/connector envelopes and print tolerances still require physical fit checks."
+  ]
+}

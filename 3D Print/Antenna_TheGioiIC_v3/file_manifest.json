@@ -1,0 +1,877 @@
+[
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/3MF_plates/Plate_01_base_crossbeam.3mf",
+    "bytes": 246101,
+    "sha256": "5ec415b4fab14775a82b82bfc302ffd5d4f495b8a844e2d9e331e7f8a29a25e9"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/3MF_plates/Plate_02_dish_cradle_feed_arms.3mf",
+    "bytes": 254279,
+    "sha256": "474b6b7c1c5c17fdc8eedea41ffae27064671781d73f5047ebb96b3bdbdf0d96"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/3MF_plates/Plate_03_drive_and_servo_mounts.3mf",
+    "bytes": 388337,
+    "sha256": "14b619b00d19dfa3bb7ecc98e40a447c437ac185aa49c65af159ba69b8e4bff5"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/3MF_plates/Plate_04_fit_test_and_feed_hub.3mf",
+    "bytes": 299402,
+    "sha256": "5110c40ce09c12f83d2ae22791d666829a49a801eb399e8239545b27331ba065"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/3MF_plates/Plate_05_encoder_and_D_shaft_gauge.3mf",
+    "bytes": 77673,
+    "sha256": "ee3926ca3261ed0fcb19e7ae5b35d36a41a152d9a19fa7fe3bb45c32d63ccd34"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/assembly_validation.json",
+    "bytes": 787,
+    "sha256": "a98793a1206ad887aa6d98d716af9dd63e7eb8df9e82256e5be4d3a85e3aa0a3"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/electrical_validation.json",
+    "bytes": 1219,
+    "sha256": "5784d3bc0328492f3d0a9ef7419956151010af8fc82445d0be92f9cb064aedee"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/final_motor_stock_check.json",
+    "bytes": 314,
+    "sha256": "72fefc1d2a9243c7131dad429fc7cfd058c4450a30c4dad99107683d89be9183"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/firmware_build_validation.json",
+    "bytes": 874,
+    "sha256": "61d9ee8ba2783affcd811d1637d1f4e72680d39d947170b7acb2d87f9088a5a0"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/initial_prototype_scenarios.csv",
+    "bytes": 870,
+    "sha256": "eb3dfc7994e02df8f4dbd11bd7ba9397b02c0be50fd56860761aafd9642fd44b"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/initial_simulation_findings.json",
+    "bytes": 7767,
+    "sha256": "1ce9329422ee03236a37cdc304838a8af17369afed638af9013c3f55bd136da3"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/load_validation.json",
+    "bytes": 25989,
+    "sha256": "7921c4981053997cea3accc02f71b2a3b9f38f7d8dc7fe0bf9860f3181a07a48"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/MATLAB_CAD_consistency.json",
+    "bytes": 698,
+    "sha256": "772d84c506fe46d25185d37b8a6c00e8b61638c84928bd3e7cfbe199fc553f5a"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/source_reorganization.json",
+    "bytes": 6781,
+    "sha256": "5b91cecf1dc48c8017d405dce30e0a1bc14a3a8a6579c2d2451592874fac3388"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/STAGE_GATES.json",
+    "bytes": 568,
+    "sha256": "05928fc907eb364ea394aed94a6bc050038ba7e238d7ad5d3c61fa4c8cdf92bb"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/stock_evidence_2026-10-24.json",
+    "bytes": 24724,
+    "sha256": "87cffd798774335284040f278b2ef4d6f601acee956fe16c8997408cc20dbde7"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit/transmission_validation.json",
+    "bytes": 2986,
+    "sha256": "3bc083b94874decb335bede148038c10b7466d7fb0eafa95f547b818a360090a"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/audit_m4.py",
+    "bytes": 8830,
+    "sha256": "65c30ba167f071e5ed11851d6a86cb25ffa6617d522f88918f80e4d848001f27"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/BAO_CAO_KIEM_TRA_V3.md",
+    "bytes": 8881,
+    "sha256": "df63d350be58867739ecc229a57c4205808f2802ee1bc12db25d140cb1adc57e"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/build_model.py",
+    "bytes": 23599,
+    "sha256": "0af7ac957e41e9f1b65220dc1066ff8c54019d0552298599ee784e1f988c829c"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/DANH_SACH_MUA_THEGIOIIC.md",
+    "bytes": 10497,
+    "sha256": "536aaca0198c1290ae0e995370f71b9103218019ec6d038d3beaa7446ef8abf5"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/delivery_validation.json",
+    "bytes": 12070,
+    "sha256": "20327013e595f9bf6c227483df8244ad983af71740dc727b95d55e5d793f944d"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/fastener_validation.json",
+    "bytes": 646,
+    "sha256": "9b5aabc05a5d44acf845fd140d2f4b144a471277a1d1b116e038505b952f7541"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/finalize_delivery.py",
+    "bytes": 8498,
+    "sha256": "68fb75bb988865fdbb5f2ff5cf5244056b4ef9efff52410859b96456d33b4641"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/hardware_BOM.csv",
+    "bytes": 8857,
+    "sha256": "6564064a4f2beea73313e29c99e4e985ca7e732e1fc5e486315c1c6750696fb1"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/HUONG_DAN_LAP_RAP.md",
+    "bytes": 9586,
+    "sha256": "cff2f54a539290c015a28bd46b428d7b37ae98739a6cacafb8bc3025819ac4c5"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/KIEM_TRA_OC_M4.md",
+    "bytes": 1483,
+    "sha256": "84125b3f97741955c59e13ceb5b8a82dd86ba91a8c5463dc4b42a81e2c79c69c"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/m4_audit.json",
+    "bytes": 20137,
+    "sha256": "85ec827c2cff8ca8585d3fa44e971fa73373a31eb54831458e5b101cce51b915"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/make_preview.py",
+    "bytes": 8833,
+    "sha256": "c12713d920bc11ba153fa6c77f62614d5c5de4467c4e812a2ee78913ccf75b34"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/mesh_validation.json",
+    "bytes": 6878,
+    "sha256": "ef1044445f552a9f375f164afee6dc80b6c7f2422bdbe39f96737dfbf6086d51"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/pack_print_plates.py",
+    "bytes": 4098,
+    "sha256": "283b8c40737ea49df4781c3bb491210f7422c417ecd281c6d8defa1522c0c728"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/package_delivery.py",
+    "bytes": 127,
+    "sha256": "9ad5d8780a97dce6ab7e09bdf28ade1d77b83351f0381c70ce4d3cd8b64c20fd"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/parameters.json",
+    "bytes": 813,
+    "sha256": "6b6014cc038afb5c36234d0dc72a177ac36978d9fbef142be6781174b5753519"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/plate_validation.json",
+    "bytes": 33469,
+    "sha256": "fce11000d572fad50e4f35c78b0d8a246a1969fac38d642e7b77ec8e655ce2f8"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/preview/assembly_front.png",
+    "bytes": 104884,
+    "sha256": "51da3f736c7f2a86c7c0c09e6df2e55b1ca5de8c417d92f4828c061c727d705f"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/preview/assembly_rear.png",
+    "bytes": 88808,
+    "sha256": "73146fb5a029b2678b4b65b4b288b3c4006f17ee596291ddbb70419847793e7d"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/preview/elevation_0.png",
+    "bytes": 108656,
+    "sha256": "18892382cbabba624804be2a0dbbce15f9699754905edd07babfae025dbe773a"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/preview/elevation_180.png",
+    "bytes": 92963,
+    "sha256": "084ed86d09198b66631678f74447609d527e092307505fe3282597525d3fb973"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/preview/elevation_90.png",
+    "bytes": 91597,
+    "sha256": "77ede4d569623362720c3af623fc9ae4d5d33b95fdd54a628da079fca3bca644"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/preview/mesh_data.json",
+    "bytes": 2459380,
+    "sha256": "a4905f8390d5654e0e232ff8194757c76e4750f9c222404e12ce38fc888d42d8"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/printed_parts.csv",
+    "bytes": 1073,
+    "sha256": "88e11c29ec45dfb8ed398efdef9f490b5cc6e9bc84cd15167213c09f1c373e72"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/procurement.json",
+    "bytes": 24724,
+    "sha256": "87cffd798774335284040f278b2ef4d6f601acee956fe16c8997408cc20dbde7"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/README_START_HERE.md",
+    "bytes": 1572,
+    "sha256": "8e4647b15f26af81ef461629a0f370f93eae74f23b57378d8bddfd97713b8ebc"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/01_base.step",
+    "bytes": 188261,
+    "sha256": "c5a8402c633e6f8ebef0fb9e8a5a6a7a07a0f555c82baa5b7405e60023d5e44b"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/02_azimuth_bearing_tower.step",
+    "bytes": 42071,
+    "sha256": "a7bec9044463f91cdad405979724123ab26b61ebaace4be4bcad3f6822f0366c"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/03_stepper_tension_bridge.step",
+    "bytes": 166184,
+    "sha256": "15914cbdc45a7f04d10f58b9e8a99175296abcaaa0dcd0f1af97c04a7cb39313"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/04_GT2_80T_integrated_rotor.step",
+    "bytes": 7460133,
+    "sha256": "fab8ad3f1e4c4f525abb0e56928906af9c0aca19b805c28c065e9db406c56dc4"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/05_bearing_spacer.step",
+    "bytes": 9433,
+    "sha256": "defcac4bab44f9c877dbe10075e3b53e321956f9433bcefa2c32eae8a614ee2a"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/07_fork_crossbeam.step",
+    "bytes": 166707,
+    "sha256": "24f765418c37b6a18b8b6da88c86be348bb680f1fc242c8e5725244130d7f9cf"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/08_right_bearing_arm.step",
+    "bytes": 40577,
+    "sha256": "bd870eda5d317e7aa416665f377d652c8779e1cf84b3beda97115387f08a12b3"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/09_left_bearing_arm.step",
+    "bytes": 144817,
+    "sha256": "fd1f3493a407dcde7b5c86e5dd526f58ec19cfcb03576c12d4416f14c31ce92b"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/10_MG946R_short_screw_carrier.step",
+    "bytes": 300005,
+    "sha256": "8d81fa7d8783727bba6c4a66ca2ce0230c8e7ab5b0eecd5ccfa399dc228a9d4a"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/11_servo_horn_shaft_coupler.step",
+    "bytes": 285414,
+    "sha256": "fdfd9164005211f72e19b893cafc612b143616cafa8c2feb28350627dab1b24b"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/12_parabolic_dish_160mm.step",
+    "bytes": 487474,
+    "sha256": "2f5bd60065db2a3bcdaa875518f680a35b926c89244cb1a4f0b57ebadd6f5f79"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/13_dish_cradle.step",
+    "bytes": 298462,
+    "sha256": "b5e5d79a3cfde07e912b36f184c682308d0f2a9b26ca4ca6cdb87cb9bbb84b17"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/14_feed_strut.step",
+    "bytes": 102637,
+    "sha256": "57948b6eee2019b924eeaf2c521d0be23dbcf08b3fffbcd70f177c27470066bc"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/15_feed_hub.step",
+    "bytes": 76618,
+    "sha256": "095b0ce3311e9345f8a7dd91796ce2d89e865788473a771166811dd757c85d06"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/16_608_fit_coupon.step",
+    "bytes": 41527,
+    "sha256": "8b353a16e0e4cc035ae0c3909c9bc3948c7d357e7cbe7f572157edf33b618011"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/17_shaft_fit_coupon.step",
+    "bytes": 29647,
+    "sha256": "7e319ca783f97cce99a00c78b753dfef76f87dd9745b101e81a3ed420e6f3bd8"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/18_printed_split_shaft_collar.step",
+    "bytes": 151688,
+    "sha256": "f71f27f678857151d2724ca1247762b39f8b76a7b4354d1c6eaefe0799da8def"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/19_bolted_printed_foot.step",
+    "bytes": 56360,
+    "sha256": "9f3531ca95e9d1709b523e9a93d633694914690749123c67096f3c1b51c57ba5"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/20_MG946R_mount_fit_gauge.step",
+    "bytes": 136257,
+    "sha256": "dece071fc2e341cccb547abf6a67e7d4049dc095b34e0a24ef04256826bba9a3"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/21_M3_motor_screw_washer_1mm.step",
+    "bytes": 9427,
+    "sha256": "c37239a550eefeddfbba758debc72678d269aee3221c9c7fcc93d0912add08e0"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/22_output_encoder_bracket.step",
+    "bytes": 219674,
+    "sha256": "0ab580a497c3f73f2ab8cf9b79a28e8a2de922d6a6ccb3eff2668ae493246b44"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/23_D_shaft_fit_gauge.step",
+    "bytes": 29318,
+    "sha256": "7de292be88058f0419bc2c6e27e7c64bd5054df1575030db121df207ff0e1c06"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STEP/ASSEMBLY_with_hardware_envelopes.step",
+    "bytes": 13773291,
+    "sha256": "c9d86fad89d0f8073355cbc091bbf6a41b28883580f42ab9940e045b0e336307"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/01_base.stl",
+    "bytes": 886484,
+    "sha256": "a982c025aa34fd98a02f0f3fff1868ba01d306b110f17d7bd47cf4d0ea13bf46"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/02_azimuth_bearing_tower.stl",
+    "bytes": 227684,
+    "sha256": "9c24d1813c25f87a2742a2bc035f8accfe674e546e91c392f83e54c54b27ac99"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/03_stepper_tension_bridge.stl",
+    "bytes": 233684,
+    "sha256": "77c03465ec9d2e05e9c54b918e9d18b143597ec8f146471559e92b414ececef2"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/04_GT2_80T_integrated_rotor.stl",
+    "bytes": 659684,
+    "sha256": "a09e27df666ddfd8c42b77a02cb97e97c544a4352fb0c2e05b4027aff6f966f3"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/05_bearing_spacer.stl",
+    "bytes": 50484,
+    "sha256": "d4f944997eac74fa476eb7f3363dd825aefe17e80fcb8f3251a3fd40ccc5c926"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/07_fork_crossbeam.stl",
+    "bytes": 259684,
+    "sha256": "dc38e8acfc4d948e9b23b5948805191ca2b759527fc435779a1f2be24831eff4"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/08_right_bearing_arm.stl",
+    "bytes": 102484,
+    "sha256": "28f0a4e1bab0619a80ec49a80cb26f8586f8061df08c686c5ea3b996745849e0"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/09_left_bearing_arm.stl",
+    "bytes": 208884,
+    "sha256": "a5fb750a204aa0dfaf5f5543bdddd0186868a7dc056bbcad25fa40acce28bfe5"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/10_MG946R_short_screw_carrier.stl",
+    "bytes": 168084,
+    "sha256": "c97d70f940b245626e2d2e6c774a5a7024dce9e6169bd712d3abafe152e6be53"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/11_servo_horn_shaft_coupler.stl",
+    "bytes": 337784,
+    "sha256": "35524419c57a6ba7f7e6af31236bf0b2773da513b7057792d1ba14b44893758a"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/12_parabolic_dish_160mm.stl",
+    "bytes": 657184,
+    "sha256": "03105808576daa36578829b6c56ded02f6bd391948bfddf6ac821e1ba08f6d83"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/13_dish_cradle.stl",
+    "bytes": 218284,
+    "sha256": "55df9a7b493f059d4ea6ae022901e67cae1b16a23ead8419340543a0e34bd092"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/14_feed_strut.stl",
+    "bytes": 90184,
+    "sha256": "4749ae5714fbc4ca20fdb0b0b0a009f9d90314cc166b34e30a6a29af6e9e9017"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/15_feed_hub.stl",
+    "bytes": 153884,
+    "sha256": "f574af992c9739a25079ee040c581d439a97e75ae5226eb719ce2c0edd1232fd"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/16_608_fit_coupon.stl",
+    "bytes": 152484,
+    "sha256": "3b3b08206033d0875127888ac8358d7eb8a0437a99a0736fa9ba4e91ae197fb6"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/17_shaft_fit_coupon.stl",
+    "bytes": 76884,
+    "sha256": "a98ee54efe53cf6f4055dc7bcd2ff31aa9b7c6403368a3d40fbc39c4e171533a"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/18_printed_split_shaft_collar.stl",
+    "bytes": 136584,
+    "sha256": "adfdfa0d2a21fe790646a9b5eac4c3bdec19294a559e4029fc8c38f4d2e9ec19"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/19_bolted_printed_foot.stl",
+    "bytes": 105284,
+    "sha256": "f08641e60b34b79041544a8b93ec47888145ebfde613443188d164975166ef75"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/20_MG946R_mount_fit_gauge.stl",
+    "bytes": 59284,
+    "sha256": "2b0c834acf4a70910f957da6c22d5ab6e35307ffc57381cec9ab04c173fa1548"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/21_M3_motor_screw_washer_1mm.stl",
+    "bytes": 50484,
+    "sha256": "6f8ad4212a4c96f139222d3c856bcf4b266fa2674a29b399f615f724f5925a0e"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/22_output_encoder_bracket.stl",
+    "bytes": 337884,
+    "sha256": "13c225e4e0a16b4bcfb6517ed79d6921fdab2df081caf3507056afeef7a2df78"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/STL/23_D_shaft_fit_gauge.stl",
+    "bytes": 48084,
+    "sha256": "c4aff1ce43406dde322ab066abe875f422ac5f7eb23707d152d0520508bf985f"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/update_procurement.py",
+    "bytes": 10301,
+    "sha256": "b7378b0b645cafa27f31550ae76489bf71fe3ea7c209ea74396be1e2fbffa8b5"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/validate_assembly.py",
+    "bytes": 3051,
+    "sha256": "fc9837acb9c37d50230fbb5cadbe78bee7591b943d54a4910d9a830d370c73af"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/validate_electrical.py",
+    "bytes": 1920,
+    "sha256": "ca1426882a5ab3a3a961593e20ae54de2b65035565214d60f5244bbeb6d81a2e"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/validate_fasteners.py",
+    "bytes": 6546,
+    "sha256": "93b1381e32822cb098725a62f9b4bf7126dcfada5d5e55df8a4c7e9c753d50a2"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/validate_loads.py",
+    "bytes": 9707,
+    "sha256": "19a2583a309cf6afca0077d5e332547170a3c48c588753ad8f2c1df84343360e"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/validate_transmission.py",
+    "bytes": 3486,
+    "sha256": "653631c1abb07091d2e6d6e381f5ebfc911bcab87cd6389b9446021024d56083"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/viewer_validation.json",
+    "bytes": 451,
+    "sha256": "87f95ef02a6e1e3a75b3316da3b4ccaf8fb69bae8babbbdad289548e8d923e8a"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/write_delivery_docs.py",
+    "bytes": 28073,
+    "sha256": "44108f5a78e0184c54970d1af230b0f82abff43d68927b7190bba5eeaf5211bf"
+  },
+  {
+    "path": "3D Print/Antenna_TheGioiIC_v3/XEM_MO_HINH_3D.html",
+    "bytes": 2465709,
+    "sha256": "59cf79b70d98198e1b66254dd88a6f8a7b7b2df2fad0414d72a3700fcc83dc85"
+  },
+  {
+    "path": "Firmware/build/antenna_f103.bin",
+    "bytes": 5152,
+    "sha256": "e2904eaff4359e9c73f2165f60b9c02afce85384d385a1d345c6b1fe68df1eea"
+  },
+  {
+    "path": "Firmware/build/antenna_f103.elf",
+    "bytes": 17504,
+    "sha256": "2f67136468f2b8c9393a8bfe6b19f3c12eec71c460ffde09a75983ed177b2f26"
+  },
+  {
+    "path": "Firmware/build/antenna_f103.hex",
+    "bytes": 14554,
+    "sha256": "efb3f411bb4cb4ed0a06166fc7e92c488fc4511415ebca0b2223abeabbc2f475"
+  },
+  {
+    "path": "Firmware/build/antenna_f103.map",
+    "bytes": 39737,
+    "sha256": "12a724c8b7d24aa6943a6c8b7260c4b9481ad4478d7eba605f5c24cdf0d6fc22"
+  },
+  {
+    "path": "Firmware/build/build_log.json",
+    "bytes": 3774,
+    "sha256": "9a2d79ce741a55865896a95f62082c205fb80d64ce2665d41fc83efdb7b727e5"
+  },
+  {
+    "path": "Firmware/build/firmware_build_validation.json",
+    "bytes": 874,
+    "sha256": "61d9ee8ba2783affcd811d1637d1f4e72680d39d947170b7acb2d87f9088a5a0"
+  },
+  {
+    "path": "Firmware/build/fuzzy_C_vectors.csv",
+    "bytes": 33453,
+    "sha256": "ba60d0ef63015e86a22904c0b9f2c88d9e318803d7d0900776675e8188967f8c"
+  },
+  {
+    "path": "Firmware/build/fuzzy_cortex-m3.o",
+    "bytes": 2080,
+    "sha256": "79eb85a77985f1a7ec1556d9b4082ed17847bcf07023bf62dc0c9f7dd5484704"
+  },
+  {
+    "path": "Firmware/build/fuzzy_cortex-m4.o",
+    "bytes": 2080,
+    "sha256": "c71f22ff5811d2cd27c1a1bcc3e2517a0560ed091d7bb8bdbb14a5186d86be73"
+  },
+  {
+    "path": "Firmware/build_firmware.py",
+    "bytes": 3441,
+    "sha256": "ddcabd40521604dcea643904c1057aae0e933a39ed593ab41f1a18d3aa61606c"
+  },
+  {
+    "path": "Firmware/DIEN_VA_DIEU_KHIEN.md",
+    "bytes": 9151,
+    "sha256": "2413abd6ceab6be22a2f29c55f0c0cdc241d43b539343a156364766b7a3b5bb9"
+  },
+  {
+    "path": "Firmware/fuzzy_controller.c",
+    "bytes": 1401,
+    "sha256": "01cbc9cd2153ccd9c103201a7227324fdf796785b9e434cc0205cdec7f298fe5"
+  },
+  {
+    "path": "Firmware/fuzzy_controller.h",
+    "bytes": 453,
+    "sha256": "0495266f5959ecac84b449d4e746e0548e04c262c4aecb032fe8e46f938eacc9"
+  },
+  {
+    "path": "Firmware/README.md",
+    "bytes": 1982,
+    "sha256": "4b4ed26283e07d08a68c9d10ae91679341d3e66830fec4584771693d042fec15"
+  },
+  {
+    "path": "Firmware/startup_f103.S",
+    "bytes": 262,
+    "sha256": "260f0187ee008390e424be2e9dd26bfe836ad38925236407c955a2f7d372d73d"
+  },
+  {
+    "path": "Firmware/stm32f103_main.c",
+    "bytes": 7689,
+    "sha256": "a34da1aa104c0b27179b2f943a83d90ae887e4bd0fd90a543e3fb0ae74637afe"
+  },
+  {
+    "path": "Firmware/stm32f103c8.ld",
+    "bytes": 681,
+    "sha256": "95ed95ae5fe574dbbd5e3f04c91b7b4b515a1a2633d29c8d6313933fb81d03ef"
+  },
+  {
+    "path": "Firmware/test_fuzzy.c",
+    "bytes": 1158,
+    "sha256": "6c62e29c5c405843ce35db435c2a57c68136e7165c0135e8a975636874f2ec45"
+  },
+  {
+    "path": "Firmware/tools/hardware_console.m",
+    "bytes": 2599,
+    "sha256": "e4d497803328563906e83b7684d84c064f78cbcc5be688ab2dc0478dd9d36f6a"
+  },
+  {
+    "path": "Simulation/antenna_dc_fuzzy.slx",
+    "bytes": 267941,
+    "sha256": "ca064b68161e6e369f9f95c219cf1b51fcf81183ce21a2f921b8209a594e64b4"
+  },
+  {
+    "path": "Simulation/antenna_fis.mat",
+    "bytes": 19961,
+    "sha256": "b8ec5de559136a431a44f4e3dc83c1699b23a5d4830d8ff2b04bc347a1dfc6a8"
+  },
+  {
+    "path": "Simulation/antenna_model_init.m",
+    "bytes": 431,
+    "sha256": "aeb4d37b8bfbeff62daa07aa04ece0d9a9a51a4ae289b14fbd25e5ed25040217"
+  },
+  {
+    "path": "Simulation/antenna_sugeno25.fis",
+    "bytes": 1829,
+    "sha256": "ed1ff6589f67f10453d0f84471180ca91bf730011f5c8d32c58ae5cd80d6145c"
+  },
+  {
+    "path": "Simulation/build_simulink_model.m",
+    "bytes": 6691,
+    "sha256": "e5239f0db3fd529d6f429822023146d12e72f70cc0bdc65d1fb9dfbb1f578000"
+  },
+  {
+    "path": "Simulation/cad_parameters.json",
+    "bytes": 455,
+    "sha256": "bc6c9a607fd4baa925929e173b2fba688afec4eb2d611f77fa85961cb939b9ee"
+  },
+  {
+    "path": "Simulation/dc_control_transition.m",
+    "bytes": 920,
+    "sha256": "4a201e81c0bde26a5d513e75a5e0a2dd7b31a10630fcb9ba84b15b6e0e121472"
+  },
+  {
+    "path": "Simulation/dc_default_config.m",
+    "bytes": 302,
+    "sha256": "144ec01019c1fdc5418da734525da1cfda01206c5be312425ff6d122edf3b351"
+  },
+  {
+    "path": "Simulation/make_antenna_fis.m",
+    "bytes": 891,
+    "sha256": "a9317950abf93c0afa8d9c7ddfb0773367d0cda825ec596ce179279383b54d41"
+  },
+  {
+    "path": "Simulation/prototype_default_config.m",
+    "bytes": 669,
+    "sha256": "dd8c549374567c95f6823f44495eaa3e2096a698aa50c8fcbe2624f69902046e"
+  },
+  {
+    "path": "Simulation/README.md",
+    "bytes": 6228,
+    "sha256": "e991208089a7f2435f2a0e877ed7d86b024a185179acb73c9962144227d4221c"
+  },
+  {
+    "path": "Simulation/render_results.m",
+    "bytes": 3528,
+    "sha256": "145df05d7df210c7fb3a72011b4228380d1acf4e78b5602d2a6ab1463f1e7f7a"
+  },
+  {
+    "path": "Simulation/results/animation_first_frame.png",
+    "bytes": 204414,
+    "sha256": "8c492a602effda12e2501aef1d91f1f9e054e8e5fab05759caa564b170b8a03f"
+  },
+  {
+    "path": "Simulation/results/animation_last_frame.png",
+    "bytes": 189765,
+    "sha256": "6fc354ef9d47b743bb979ca0c782fc27df68cc615b0fc84f0d95345a16f5bc04"
+  },
+  {
+    "path": "Simulation/results/antenna_CAD.fig",
+    "bytes": 1290556,
+    "sha256": "9ac58b4675c15e2880e271930855789c1290f05152685d87e48648d2998b1c19"
+  },
+  {
+    "path": "Simulation/results/antenna_CAD_in_MATLAB.png",
+    "bytes": 221295,
+    "sha256": "f5aebf11c0b7e5fd65a6f91c075c6a20cccec26af3935fd3acc1eec93096e666"
+  },
+  {
+    "path": "Simulation/results/antenna_simulation.mp4",
+    "bytes": 654587,
+    "sha256": "6f8323f631998a7974a8ce067009305afb31a61b9d6afe7cd91aa04c46b53762"
+  },
+  {
+    "path": "Simulation/results/comprehensive_validation.json",
+    "bytes": 9229,
+    "sha256": "4a7ee1f8825bdfa3e1925e7bf937d2c069f96775debd5e64fe353e30a7a357c3"
+  },
+  {
+    "path": "Simulation/results/dc_assignment.png",
+    "bytes": 85766,
+    "sha256": "b4d195b95bc380c1d8a835c8d91656f17dbcc2420694e7a6808c48b5fafd9ed5"
+  },
+  {
+    "path": "Simulation/results/dc_disturbance.mat",
+    "bytes": 10291903,
+    "sha256": "d081d05b1afd1869b6528a6a099a0a0963edd0cda4b7c087384af85c85050aad"
+  },
+  {
+    "path": "Simulation/results/dc_nominal.mat",
+    "bytes": 10258854,
+    "sha256": "f984a5137332914b77f4ebea2d0da50584d178f7bf36a2be0edb4a9480584e91"
+  },
+  {
+    "path": "Simulation/results/dc_reference_PD_baseline.mat",
+    "bytes": 10192187,
+    "sha256": "a8913a39ff94c6312d0c787d86fd39c4ba73af9f51055e6326f75aade79fc3fd"
+  },
+  {
+    "path": "Simulation/results/dc_tuning.csv",
+    "bytes": 1400,
+    "sha256": "28c1118f02895aef0f6942a65e96df9a8eb7e183b2733eaf47b1f0181e008d0b"
+  },
+  {
+    "path": "Simulation/results/dc_uncertainty.csv",
+    "bytes": 817,
+    "sha256": "24e2ffc7ac061bc75d7f2261b8e39e90c079e859367802d6408742d61bd1490e"
+  },
+  {
+    "path": "Simulation/results/fuzzy_equivalence.csv",
+    "bytes": 50988,
+    "sha256": "0db7121465d639f5ee90d826e0d2d7153f3d456c68b904369b282b3cd97dfea0"
+  },
+  {
+    "path": "Simulation/results/fuzzy_validation.json",
+    "bytes": 154,
+    "sha256": "3f0b604764d06bd3868eb8f26fec0f0c3fc83e0e3e44e01a2f154f862c239963"
+  },
+  {
+    "path": "Simulation/results/prototype_communications_lost.mat",
+    "bytes": 182083,
+    "sha256": "f3b2234203add8d333e8167652afc5170416745e3561585a07b7a21b30df9389"
+  },
+  {
+    "path": "Simulation/results/prototype_encoder_freeze.mat",
+    "bytes": 174546,
+    "sha256": "07a2b1fc47451826b6dac23f14929fcb5e49ba27521f2c90c466572874603313"
+  },
+  {
+    "path": "Simulation/results/prototype_encoder_noise.mat",
+    "bytes": 307505,
+    "sha256": "e23ed6ffbedbef1bbeb026be104155fe593e248903b4edf56b62fd35064014eb"
+  },
+  {
+    "path": "Simulation/results/prototype_high_inertia_and_backlash.mat",
+    "bytes": 331448,
+    "sha256": "8145b6e68943c472ce70f1a7976236b7d1f905479f2a176a27fe7540bc3e2cec"
+  },
+  {
+    "path": "Simulation/results/prototype_load_torque.mat",
+    "bytes": 300950,
+    "sha256": "7586e9510dec203d9d41dd5799dd085df8a98bc2d094d03e23ad104ac189fdb7"
+  },
+  {
+    "path": "Simulation/results/prototype_low_inertia.mat",
+    "bytes": 281293,
+    "sha256": "7a11433841324c16616e80b0d8ceb61aed11d48ae8ba971f916d7cfcfda690f1"
+  },
+  {
+    "path": "Simulation/results/prototype_missed_pulses.mat",
+    "bytes": 294532,
+    "sha256": "71a051a9dbc68aae9ecfe3977074aac73f0fbaabb406ffa619b4fa4501b197f5"
+  },
+  {
+    "path": "Simulation/results/prototype_nominal.mat",
+    "bytes": 24263232,
+    "sha256": "e5e2bf325ccb51e2f248cc3a138c0c6694057ad399b17f277b9adadd181f00ef"
+  },
+  {
+    "path": "Simulation/results/prototype_open_loop.mat",
+    "bytes": 228440,
+    "sha256": "d5ee9268e750c26c9d8b97ff2ad710e70b60738a137272bc89907e5a5324524f"
+  },
+  {
+    "path": "Simulation/results/prototype_output_jam.mat",
+    "bytes": 181428,
+    "sha256": "6b4200ae818bde22c012525d60b6e9eb3824a7422fd82b2171ff7c9b50c4d4d9"
+  },
+  {
+    "path": "Simulation/results/prototype_overload_0p08Nm.mat",
+    "bytes": 301087,
+    "sha256": "a908f530d0f983b01f29bff1898e93af7ce0da123460aabc90abc284f9dee382"
+  },
+  {
+    "path": "Simulation/results/prototype_scenarios.csv",
+    "bytes": 1047,
+    "sha256": "bed2291fe4f9b6ac032fe9defc4439c0b17dc17dd26cf7dd84e607f16bff11e5"
+  },
+  {
+    "path": "Simulation/results/prototype_slower_control_sample.mat",
+    "bytes": 291295,
+    "sha256": "24d1eb17779ce6789e0d99e8eebdf0731da179559aded4f35f59ce7c18af3906"
+  },
+  {
+    "path": "Simulation/results/prototype_tracking.png",
+    "bytes": 129657,
+    "sha256": "4f7947ed48f4a09a847d68f83a9343834b2f3e59c0da729656e688e67ada53e0"
+  },
+  {
+    "path": "Simulation/results/simulink_dc.mat",
+    "bytes": 10258980,
+    "sha256": "3d8425742c9ca61fa790efe1c2617f290e4c161040f05f8fbd2426dc24bc1c01"
+  },
+  {
+    "path": "Simulation/results/simulink_model.png",
+    "bytes": 45876,
+    "sha256": "7a4716ff5e7b4b7c3e36b92d7f760e95e9b9fb15c28cd9424e63e3e00d1457e3"
+  },
+  {
+    "path": "Simulation/results/simulink_validation.json",
+    "bytes": 1374,
+    "sha256": "a5c7cc4e42b0527a50ae9b85d284bbd5b294990ffc6cd56c2c75b81127b1f9f3"
+  },
+  {
+    "path": "Simulation/results/video_validation.json",
+    "bytes": 636,
+    "sha256": "3370f0a3ffb75a9cd82ae1837004fc55128244ca8ffa4315e48fd8ab7dd41bf6"
+  },
+  {
+    "path": "Simulation/run_extended_tests.m",
+    "bytes": 6912,
+    "sha256": "a8bcb40997d6f450753e5727eb86934d486f2f27644e459c60203cd36d36c7c4"
+  },
+  {
+    "path": "Simulation/run_final_validation.m",
+    "bytes": 560,
+    "sha256": "dbe96f86818482c73f6d576a6c6124709a1b951605e7c9754eca42233f5566c1"
+  },
+  {
+    "path": "Simulation/run_prototype_smoke.m",
+    "bytes": 254,
+    "sha256": "01423bb105aafdfc71e3483fdf4c9039f860793c421a641422107e9900646a8d"
+  },
+  {
+    "path": "Simulation/run_smoke.m",
+    "bytes": 375,
+    "sha256": "c1b34495391847b94ec7501ddaa47dc1164f2c8e32038e5e51d91f024264872e"
+  },
+  {
+    "path": "Simulation/score_steps.m",
+    "bytes": 1164,
+    "sha256": "5d3fa53806b80f96785a5cb495a78b0d923dc577c15141c504e1c6bc6ec4d9f4"
+  },
+  {
+    "path": "Simulation/selected_dc_config.json",
+    "bytes": 321,
+    "sha256": "c86f002daaf83103b322f6c3505a93830e9f3ae4ce823f400f8709161de74702"
+  },
+  {
+    "path": "Simulation/sfun_dc_inner.m",
+    "bytes": 1161,
+    "sha256": "a935602ba259cf46ace71ed40cf2a28b00a2c569e649db973c02c3c947b04389"
+  },
+  {
+    "path": "Simulation/simulate_dc.m",
+    "bytes": 1724,
+    "sha256": "7ed56f4d1ea8d4d239a04e87df009e2c48e12be726ed09dd2cafe7f9bd6da24b"
+  },
+  {
+    "path": "Simulation/simulate_prototype.m",
+    "bytes": 5549,
+    "sha256": "d954b7a111de57e633cc4afaff074f44224b7be473f2f977528199988cc31ff1"
+  },
+  {
+    "path": "Simulation/sugeno25.m",
+    "bytes": 482,
+    "sha256": "582f2706e95e3f6907062bce49bf3ff6215770e3f0da68c72f52df95c75482d4"
+  },
+  {
+    "path": "Simulation/tune_dc.m",
+    "bytes": 1429,
+    "sha256": "c23e44b913b8dc271ba547651e5d5d0775edfea18dc36c7195839036296ee680"
+  },
+  {
+    "path": "Simulation/update_antenna.m",
+    "bytes": 726,
+    "sha256": "a777d0b808578e8ff3f0bae28ae398224acb19d2c6d149fc8ccb1a8cbe5b4b25"
+  },
+  {
+    "path": "Simulation/verify_fuzzy.m",
+    "bytes": 760,
+    "sha256": "2029c1d4f1d3fc19da3603f2c26bd4d0ac1b0d014372482839243b066710a5c7"
+  },
+  {
+    "path": "Simulation/view_antenna.m",
+    "bytes": 1977,
+    "sha256": "2bc58f795b557bf41afbcc0010bbed45a9d0d1a2749007f274700f29814c4366"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1482,
+    "sha256": "d778527eaa396f73032afeff39582911a794a8e20b28cf59537a5a263a964f4a"
+  }
+]

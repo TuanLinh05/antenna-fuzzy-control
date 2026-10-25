@@ -1,0 +1,244 @@
+{
+  "status": "FAIL",
+  "MATLAB_version": "26.1.0.3251617 (R2026a) Update 2",
+  "dc_nominal": {
+    "steps": [
+      {
+        "time_s": 0,
+        "target_deg": 59.999999999999993,
+        "overshoot_percent": 0,
+        "settling_2percent_s": 2.3119,
+        "tail_max_error_rad": 2.1736992927845478E-6
+      },
+      {
+        "time_s": 12,
+        "target_deg": 150.00000000000003,
+        "overshoot_percent": 0,
+        "settling_2percent_s": 3.3579000000000008,
+        "tail_max_error_rad": 2.47471869352367E-6
+      },
+      {
+        "time_s": 24,
+        "target_deg": 29.999999999999996,
+        "overshoot_percent": 0,
+        "settling_2percent_s": 4.4134000000000029,
+        "tail_max_error_rad": 2.7611331822052776E-6
+      },
+      {
+        "time_s": 36,
+        "target_deg": 90,
+        "overshoot_percent": 0,
+        "settling_2percent_s": 2.3119000000000014,
+        "tail_max_error_rad": 2.1634709095330606E-6
+      }
+    ],
+    "worst_overshoot_percent": 0,
+    "worst_tail_error_rad": 2.7611331822052776E-6,
+    "sum_settling_s": 12.395100000000005,
+    "rms_tracking_error_deg": 28.379161472538208,
+    "peak_speed_rad_s": 0.49816054799093817,
+    "peak_voltage_V": 8.4108783046874827,
+    "peak_current_A": 1.5149631580879179,
+    "pass": true
+  },
+  "dc_uncertainty_case_count": 12,
+  "dc_uncertainty_all_pass": false,
+  "dc_step_refinement_max_difference_rad": 9.5523589038748469E-13,
+  "dc_disturbance_pass": true,
+  "linear_PD_baseline": {
+    "steps": [
+      {
+        "time_s": 0,
+        "target_deg": 59.999999999999993,
+        "overshoot_percent": 0.16441516412375931,
+        "settling_2percent_s": 2.2821000000000002,
+        "tail_max_error_rad": 3.5711441557229051E-6
+      },
+      {
+        "time_s": 12,
+        "target_deg": 150.00000000000003,
+        "overshoot_percent": 0.10953298682131779,
+        "settling_2percent_s": 3.3406000000000002,
+        "tail_max_error_rad": 4.3339065718406289E-6
+      },
+      {
+        "time_s": 24,
+        "target_deg": 29.999999999999996,
+        "overshoot_percent": 0.081658904660784432,
+        "settling_2percent_s": 4.4015000000000022,
+        "tail_max_error_rad": 4.5198243929789328E-6
+      },
+      {
+        "time_s": 36,
+        "target_deg": 90,
+        "overshoot_percent": 0.16395668589609158,
+        "settling_2percent_s": 2.2811000000000021,
+        "tail_max_error_rad": 3.6228341948607579E-6
+      }
+    ],
+    "worst_overshoot_percent": 0.16441516412375931,
+    "worst_tail_error_rad": 4.5198243929789328E-6,
+    "sum_settling_s": 12.305300000000004,
+    "rms_tracking_error_deg": 28.377447372571545,
+    "peak_speed_rad_s": 0.49837512134956968,
+    "peak_voltage_V": 8.4137410501522023,
+    "peak_current_A": 1.5185587352060004,
+    "pass": true
+  },
+  "prototype_nominal": {
+    "steps": [
+      {
+        "time_s": 0,
+        "target_deg": 59.999999999999993,
+        "overshoot_percent": 0.4104065103053704,
+        "settling_2percent_s": 2.8307,
+        "tail_max_error_rad": 0.00010908307838475295
+      },
+      {
+        "time_s": 12,
+        "target_deg": 150.00000000000003,
+        "overshoot_percent": 0.28021634565312675,
+        "settling_2percent_s": 3.8946000000000005,
+        "tail_max_error_rad": 0.00010908307851975607
+      },
+      {
+        "time_s": 24,
+        "target_deg": 29.999999999999996,
+        "overshoot_percent": 0.20601576475785455,
+        "settling_2percent_s": 4.8593000000000011,
+        "tail_max_error_rad": 0.00010908307831702935
+      },
+      {
+        "time_s": 36,
+        "target_deg": 90,
+        "overshoot_percent": 0.43362304777854987,
+        "settling_2percent_s": 2.7923000000000044,
+        "tail_max_error_rad": 0.00021816615636405245
+      }
+    ],
+    "worst_overshoot_percent": 0.43362304777854987,
+    "worst_tail_error_rad": 0.00021816615636405245,
+    "sum_settling_s": 14.376900000000006,
+    "rms_tracking_error_deg": 31.879414107030183,
+    "peak_speed_rad_s": 0.49067975811547654,
+    "peak_motor_torque_Nm": 0.04789118828757688,
+    "peak_belt_torque_Nm": 0.076474767611863947,
+    "elevation_tail_error_deg": 0.19332912709372729,
+    "first_fault_time_s": null,
+    "final_fault": 0,
+    "pass_tracking": true
+  },
+  "prototype_scenarios": [
+    {
+      "name": "open_loop",
+      "pass": true,
+      "expected_fault": false,
+      "overshoot_percent": 0,
+      "tail_error_deg": 0.89471874501451509,
+      "peak_speed_deg_s": 28.113879232516911,
+      "fault": 0,
+      "fault_time_s": null
+    },
+    {
+      "name": "load_torque",
+      "pass": false,
+      "expected_fault": false,
+      "overshoot_percent": 0.429685633408915,
+      "tail_error_deg": 0.01562500000775004,
+      "peak_speed_deg_s": 46.496105426582652,
+      "fault": 0,
+      "fault_time_s": null
+    },
+    {
+      "name": "missed_pulses",
+      "pass": true,
+      "expected_fault": false,
+      "overshoot_percent": 0.429685633408915,
+      "tail_error_deg": 0.01562500000775004,
+      "peak_speed_deg_s": 28.541155999143736,
+      "fault": 0,
+      "fault_time_s": null
+    },
+    {
+      "name": "high_inertia_and_backlash",
+      "pass": true,
+      "expected_fault": false,
+      "overshoot_percent": 0.5006982799379005,
+      "tail_error_deg": 0.085162621867489213,
+      "peak_speed_deg_s": 29.947181525144785,
+      "fault": 0,
+      "fault_time_s": null
+    },
+    {
+      "name": "low_inertia",
+      "pass": true,
+      "expected_fault": false,
+      "overshoot_percent": 0.40266447496895613,
+      "tail_error_deg": 0.034375000009383677,
+      "peak_speed_deg_s": 28.056126708545861,
+      "fault": 0,
+      "fault_time_s": null
+    },
+    {
+      "name": "encoder_noise",
+      "pass": true,
+      "expected_fault": false,
+      "overshoot_percent": 0.42377791108202323,
+      "tail_error_deg": 0.021874999996140627,
+      "peak_speed_deg_s": 28.113879232516911,
+      "fault": 0,
+      "fault_time_s": null
+    },
+    {
+      "name": "slower_control_sample",
+      "pass": true,
+      "expected_fault": false,
+      "overshoot_percent": 0.48179239434253007,
+      "tail_error_deg": 0.01562500000775004,
+      "peak_speed_deg_s": 28.064186201992005,
+      "fault": 0,
+      "fault_time_s": null
+    },
+    {
+      "name": "encoder_freeze",
+      "pass": true,
+      "expected_fault": true,
+      "overshoot_percent": 0.4104065103053704,
+      "tail_error_deg": 63.922794087038824,
+      "peak_speed_deg_s": 28.113879232516911,
+      "fault": 4,
+      "fault_time_s": 13.42
+    },
+    {
+      "name": "communications_lost",
+      "pass": true,
+      "expected_fault": true,
+      "overshoot_percent": 66.072638786505664,
+      "tail_error_deg": 99.64358327190341,
+      "peak_speed_deg_s": 28.113879232516911,
+      "fault": 1,
+      "fault_time_s": 15
+    },
+    {
+      "name": "output_jam",
+      "pass": true,
+      "expected_fault": true,
+      "overshoot_percent": 0.4104065103053704,
+      "tail_error_deg": 74.55620172211465,
+      "peak_speed_deg_s": 58.752784751393932,
+      "fault": 4,
+      "fault_time_s": 13.440000000000001
+    }
+  ],
+  "prototype_refinement_max_difference_rad": 2.012290085384727E-5,
+  "prototype_refinement_pass": true,
+  "physical_hardware_validated": false,
+  "Simscape_Multibody_installed": false,
+  "limitations": [
+    "Original DC assignment and stepper prototype are different plants.",
+    "Prototype motor rotor inertia, running torque, belt k/c/backlash and servo dynamics are assumptions, not identified measurements.",
+    "No HIL, thermal model, coil-current chopper circuit, structural 3D FEA or RF simulation is claimed.",
+    "Only azimuth uses external fuzzy feedback. Elevation is a surrogate of the hobby servo internal controller.",
+    "Tuning selects the fastest passing candidate among 18 trials; no global time-optimality proof is claimed."
+  ]
+}

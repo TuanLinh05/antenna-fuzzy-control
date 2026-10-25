@@ -1,0 +1,89 @@
+[System]
+Name='antenna_v5_azimuth'
+Type='sugeno'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=25
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='e_norm'
+Range=[-1 1]
+NumMFs=5
+MF1='NB':'trimf',[-1.5 -1 -0.5]
+MF2='NS':'trimf',[-1 -0.5 0]
+MF3='ZE':'trimf',[-0.5 0 0.5]
+MF4='PS':'trimf',[0 0.5 1]
+MF5='PB':'trimf',[0.5 1 1.5]
+
+[Input2]
+Name='de_norm'
+Range=[-1 1]
+NumMFs=5
+MF1='NB':'trimf',[-1.5 -1 -0.5]
+MF2='NS':'trimf',[-1 -0.5 0]
+MF3='ZE':'trimf',[-0.5 0 0.5]
+MF4='PS':'trimf',[0 0.5 1]
+MF5='PB':'trimf',[0.5 1 1.5]
+
+[Output1]
+Name='u'
+Range=[-1 1]
+NumMFs=25
+MF1='rNB_NB':'constant',[-1]
+MF2='rNB_NS':'constant',[-1]
+MF3='rNB_ZE':'constant',[-1]
+MF4='rNB_PS':'constant',[-1]
+MF5='rNB_PB':'constant',[-1]
+MF6='rNS_NB':'constant',[-1]
+MF7='rNS_NS':'constant',[-1]
+MF8='rNS_ZE':'constant',[-1]
+MF9='rNS_PS':'constant',[-0.75]
+MF10='rNS_PB':'constant',[-0.5]
+MF11='rZE_NB':'constant',[-0.5]
+MF12='rZE_NS':'constant',[-0.25]
+MF13='rZE_ZE':'constant',[0]
+MF14='rZE_PS':'constant',[0.25]
+MF15='rZE_PB':'constant',[0.5]
+MF16='rPS_NB':'constant',[0.5]
+MF17='rPS_NS':'constant',[0.75]
+MF18='rPS_ZE':'constant',[1]
+MF19='rPS_PS':'constant',[1]
+MF20='rPS_PB':'constant',[1]
+MF21='rPB_NB':'constant',[1]
+MF22='rPB_NS':'constant',[1]
+MF23='rPB_ZE':'constant',[1]
+MF24='rPB_PS':'constant',[1]
+MF25='rPB_PB':'constant',[1]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+1 3, 3 (1) : 1
+1 4, 4 (1) : 1
+1 5, 5 (1) : 1
+2 1, 6 (1) : 1
+2 2, 7 (1) : 1
+2 3, 8 (1) : 1
+2 4, 9 (1) : 1
+2 5, 10 (1) : 1
+3 1, 11 (1) : 1
+3 2, 12 (1) : 1
+3 3, 13 (1) : 1
+3 4, 14 (1) : 1
+3 5, 15 (1) : 1
+4 1, 16 (1) : 1
+4 2, 17 (1) : 1
+4 3, 18 (1) : 1
+4 4, 19 (1) : 1
+4 5, 20 (1) : 1
+5 1, 21 (1) : 1
+5 2, 22 (1) : 1
+5 3, 23 (1) : 1
+5 4, 24 (1) : 1
+5 5, 25 (1) : 1

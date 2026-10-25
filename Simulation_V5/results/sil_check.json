@@ -1,0 +1,21 @@
+{
+  "defaults_equal": true,
+  "defaults_mismatch": [],
+  "fuzzy_points": 40401,
+  "fuzzy_mex_vs_m_max": 0,
+  "fuzzy_mex_vs_fis_max": 1.3828277589666982E-7,
+  "fuzzy_host_vectors": 6561,
+  "fuzzy_mex_vs_host_max": 4.9720766392979954E-10,
+  "stepgen_cases": 3000,
+  "stepgen_mismatch": 0,
+  "closed_loop_steps": 2000,
+  "closed_loop_max_dtheta_deg": 0,
+  "closed_loop_hp_equal": true,
+  "closed_loop_servo_equal": true,
+  "pil_link": "virtual board (host build of core + link_proto)",
+  "pil_steps": 2000,
+  "pil_mismatch": 0,
+  "pil_vs_mex_max_dtheta_deg": 0,
+  "pil_wall_time_s": 4.2383166,
+  "pass": true
+}

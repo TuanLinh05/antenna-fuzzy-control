@@ -1,0 +1,901 @@
+{
+  "status": "PASS",
+  "inspected_source": "Delivered part STEP files",
+  "screw": "M4x20 DIN912, nominal head diameter 7 mm and height 4 mm",
+  "joint_count": 20,
+  "measured_coaxial_hole_count": 40,
+  "base_head_recess_count": 8,
+  "base_head_protrusion_mm": 0.8,
+  "printed_foot_height_mm": 55,
+  "carrier_slot_edge_margins_mm": {
+    "lower_mm": 7.400000000000006,
+    "upper_mm": 8.4,
+    "side_mm": 7.9
+  },
+  "nut": "Standard M4 hex nut, nominal AF7 x3.2 mm",
+  "existing_assembly_fastener_validation": "PASS",
+  "remaining_screws": {
+    "M4x20": 20,
+    "M3x12": 8,
+    "M3x16": 11,
+    "M3x10": 6,
+    "M3x8": 1,
+    "M3x20": 7,
+    "M2x10": 2,
+    "M3x25": 3,
+    "M2x8": 4
+  },
+  "joints": [
+    {
+      "joint": 1,
+      "group": "tower_to_base",
+      "holes": [
+        {
+          "part": "01_base",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -28.2,
+              -28.2,
+              3.2
+            ],
+            [
+              -23.8,
+              -23.8,
+              8.0
+            ]
+          ]
+        },
+        {
+          "part": "02_azimuth_bearing_tower",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -28.2,
+              -28.2,
+              8.0
+            ],
+            [
+              -23.8,
+              -23.8,
+              14.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 6.0,
+      "nut_trap": null,
+      "collisions": []
+    },
+    {
+      "joint": 2,
+      "group": "tower_to_base",
+      "holes": [
+        {
+          "part": "01_base",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -28.2,
+              23.8,
+              3.2
+            ],
+            [
+              -23.8,
+              28.2,
+              8.0
+            ]
+          ]
+        },
+        {
+          "part": "02_azimuth_bearing_tower",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -28.2,
+              23.8,
+              8.0
+            ],
+            [
+              -23.8,
+              28.2,
+              14.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 6.0,
+      "nut_trap": null,
+      "collisions": []
+    },
+    {
+      "joint": 3,
+      "group": "tower_to_base",
+      "holes": [
+        {
+          "part": "01_base",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              23.8,
+              -28.2,
+              3.2
+            ],
+            [
+              28.2,
+              -23.8,
+              8.0
+            ]
+          ]
+        },
+        {
+          "part": "02_azimuth_bearing_tower",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              23.8,
+              -28.2,
+              8.0
+            ],
+            [
+              28.2,
+              -23.8,
+              14.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 6.0,
+      "nut_trap": null,
+      "collisions": []
+    },
+    {
+      "joint": 4,
+      "group": "tower_to_base",
+      "holes": [
+        {
+          "part": "01_base",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              23.8,
+              23.8,
+              3.2
+            ],
+            [
+              28.2,
+              28.2,
+              8.0
+            ]
+          ]
+        },
+        {
+          "part": "02_azimuth_bearing_tower",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              23.8,
+              23.8,
+              8.0
+            ],
+            [
+              28.2,
+              28.2,
+              14.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 6.0,
+      "nut_trap": null,
+      "collisions": []
+    },
+    {
+      "joint": 5,
+      "group": "bridge_to_base",
+      "holes": [
+        {
+          "part": "01_base",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              58.717295900695,
+              -37.2,
+              3.2
+            ],
+            [
+              63.117295900695005,
+              -32.8,
+              8.0
+            ]
+          ]
+        },
+        {
+          "part": "03_stepper_tension_bridge",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              58.717295900695,
+              -37.2,
+              8.0
+            ],
+            [
+              63.117295900695005,
+              -32.8,
+              14.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 6.0,
+      "nut_trap": null,
+      "collisions": []
+    },
+    {
+      "joint": 6,
+      "group": "bridge_to_base",
+      "holes": [
+        {
+          "part": "01_base",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              58.717295900695,
+              32.8,
+              3.2
+            ],
+            [
+              63.117295900695005,
+              37.2,
+              8.0
+            ]
+          ]
+        },
+        {
+          "part": "03_stepper_tension_bridge",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              58.717295900695,
+              32.8,
+              8.0
+            ],
+            [
+              63.117295900695005,
+              37.2,
+              14.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 6.0,
+      "nut_trap": null,
+      "collisions": []
+    },
+    {
+      "joint": 7,
+      "group": "bridge_to_base",
+      "holes": [
+        {
+          "part": "01_base",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              112.71729590068999,
+              -37.2,
+              3.2
+            ],
+            [
+              117.11729590069,
+              -32.8,
+              8.0
+            ]
+          ]
+        },
+        {
+          "part": "03_stepper_tension_bridge",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              112.71729590068999,
+              -37.2,
+              8.0
+            ],
+            [
+              117.11729590069,
+              -32.8,
+              14.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 6.0,
+      "nut_trap": null,
+      "collisions": []
+    },
+    {
+      "joint": 8,
+      "group": "bridge_to_base",
+      "holes": [
+        {
+          "part": "01_base",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              112.71729590068999,
+              32.8,
+              3.2
+            ],
+            [
+              117.11729590069,
+              37.2,
+              8.0
+            ]
+          ]
+        },
+        {
+          "part": "03_stepper_tension_bridge",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              112.71729590068999,
+              32.8,
+              8.0
+            ],
+            [
+              117.11729590069,
+              37.2,
+              14.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 6.0,
+      "nut_trap": null,
+      "collisions": []
+    },
+    {
+      "joint": 9,
+      "group": "crossbeam_to_rotor",
+      "holes": [
+        {
+          "part": "07_fork_crossbeam",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -32.2,
+              -14.2,
+              89.0
+            ],
+            [
+              -27.8,
+              -9.8,
+              97.0
+            ]
+          ]
+        },
+        {
+          "part": "04_GT2_80T_integrated_rotor",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -32.2,
+              -14.2,
+              84.5
+            ],
+            [
+              -27.8,
+              -9.8,
+              89.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 4,
+      "nut_trap": {
+        "part": "04_GT2_80T_integrated_rotor",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 10,
+      "group": "crossbeam_to_rotor",
+      "holes": [
+        {
+          "part": "07_fork_crossbeam",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -32.2,
+              9.8,
+              89.0
+            ],
+            [
+              -27.8,
+              14.2,
+              97.0
+            ]
+          ]
+        },
+        {
+          "part": "04_GT2_80T_integrated_rotor",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -32.2,
+              9.8,
+              84.5
+            ],
+            [
+              -27.8,
+              14.2,
+              89.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 4,
+      "nut_trap": {
+        "part": "04_GT2_80T_integrated_rotor",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 11,
+      "group": "crossbeam_to_rotor",
+      "holes": [
+        {
+          "part": "07_fork_crossbeam",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              27.8,
+              -14.2,
+              89.0
+            ],
+            [
+              32.2,
+              -9.8,
+              97.0
+            ]
+          ]
+        },
+        {
+          "part": "04_GT2_80T_integrated_rotor",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              27.8,
+              -14.2,
+              84.5
+            ],
+            [
+              32.2,
+              -9.8,
+              89.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 4,
+      "nut_trap": {
+        "part": "04_GT2_80T_integrated_rotor",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 12,
+      "group": "crossbeam_to_rotor",
+      "holes": [
+        {
+          "part": "07_fork_crossbeam",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              27.8,
+              9.8,
+              89.0
+            ],
+            [
+              32.2,
+              14.2,
+              97.0
+            ]
+          ]
+        },
+        {
+          "part": "04_GT2_80T_integrated_rotor",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              27.8,
+              9.8,
+              84.5
+            ],
+            [
+              32.2,
+              14.2,
+              89.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 4,
+      "nut_trap": {
+        "part": "04_GT2_80T_integrated_rotor",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 13,
+      "group": "arms_to_crossbeam",
+      "holes": [
+        {
+          "part": "09_left_bearing_arm",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -79.2,
+              -22.2,
+              97.0
+            ],
+            [
+              -74.8,
+              -17.8,
+              105.0
+            ]
+          ]
+        },
+        {
+          "part": "07_fork_crossbeam",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -79.2,
+              -22.2,
+              92.5
+            ],
+            [
+              -74.8,
+              -17.8,
+              97.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 4,
+      "nut_trap": {
+        "part": "07_fork_crossbeam",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 14,
+      "group": "arms_to_crossbeam",
+      "holes": [
+        {
+          "part": "09_left_bearing_arm",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -79.2,
+              17.8,
+              97.0
+            ],
+            [
+              -74.8,
+              22.2,
+              105.0
+            ]
+          ]
+        },
+        {
+          "part": "07_fork_crossbeam",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -79.2,
+              17.8,
+              92.5
+            ],
+            [
+              -74.8,
+              22.2,
+              97.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 4,
+      "nut_trap": {
+        "part": "07_fork_crossbeam",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 15,
+      "group": "arms_to_crossbeam",
+      "holes": [
+        {
+          "part": "08_right_bearing_arm",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              74.8,
+              -22.2,
+              97.0
+            ],
+            [
+              79.2,
+              -17.8,
+              105.0
+            ]
+          ]
+        },
+        {
+          "part": "07_fork_crossbeam",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              74.8,
+              -22.2,
+              92.5
+            ],
+            [
+              79.2,
+              -17.8,
+              97.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 4,
+      "nut_trap": {
+        "part": "07_fork_crossbeam",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 16,
+      "group": "arms_to_crossbeam",
+      "holes": [
+        {
+          "part": "08_right_bearing_arm",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              74.8,
+              17.8,
+              97.0
+            ],
+            [
+              79.2,
+              22.2,
+              105.0
+            ]
+          ]
+        },
+        {
+          "part": "07_fork_crossbeam",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              74.8,
+              17.8,
+              92.5
+            ],
+            [
+              79.2,
+              22.2,
+              97.0
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 4,
+      "nut_trap": {
+        "part": "07_fork_crossbeam",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 17,
+      "group": "servo_carrier_to_left_arm",
+      "holes": [
+        {
+          "part": "10_LD1501MG_reinforced_carrier",
+          "feature_type": "vertical_adjustment_slot",
+          "width_mm": 4.4,
+          "length_mm": 9.4,
+          "adjustment_each_direction_mm": 2.5
+        },
+        {
+          "part": "09_left_bearing_arm",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -97.0,
+              -26.2,
+              166.8
+            ],
+            [
+              -90.5,
+              -21.8,
+              171.2
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 0.0,
+      "nut_trap": {
+        "part": "09_left_bearing_arm",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 18,
+      "group": "servo_carrier_to_left_arm",
+      "holes": [
+        {
+          "part": "10_LD1501MG_reinforced_carrier",
+          "feature_type": "vertical_adjustment_slot",
+          "width_mm": 4.4,
+          "length_mm": 9.4,
+          "adjustment_each_direction_mm": 2.5
+        },
+        {
+          "part": "09_left_bearing_arm",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -97.0,
+              -26.2,
+              223.8
+            ],
+            [
+              -90.5,
+              -21.8,
+              228.2
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 0.0,
+      "nut_trap": {
+        "part": "09_left_bearing_arm",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 19,
+      "group": "servo_carrier_to_left_arm",
+      "holes": [
+        {
+          "part": "10_LD1501MG_reinforced_carrier",
+          "feature_type": "vertical_adjustment_slot",
+          "width_mm": 4.4,
+          "length_mm": 9.4,
+          "adjustment_each_direction_mm": 2.5
+        },
+        {
+          "part": "09_left_bearing_arm",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -97.0,
+              21.8,
+              166.8
+            ],
+            [
+              -90.5,
+              26.2,
+              171.2
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 0.0,
+      "nut_trap": {
+        "part": "09_left_bearing_arm",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    },
+    {
+      "joint": 20,
+      "group": "servo_carrier_to_left_arm",
+      "holes": [
+        {
+          "part": "10_LD1501MG_reinforced_carrier",
+          "feature_type": "vertical_adjustment_slot",
+          "width_mm": 4.4,
+          "length_mm": 9.4,
+          "adjustment_each_direction_mm": 2.5
+        },
+        {
+          "part": "09_left_bearing_arm",
+          "diameter_mm": 4.4,
+          "bounds_mm": [
+            [
+              -97.0,
+              21.8,
+              223.8
+            ],
+            [
+              -90.5,
+              26.2,
+              228.2
+            ]
+          ]
+        }
+      ],
+      "nominal_nut_engagement_mm": 3.2,
+      "tip_beyond_nut_mm": 0.0,
+      "nut_trap": {
+        "part": "09_left_bearing_arm",
+        "minimum_clear_AF_mm": 7.298,
+        "minimum_clear_depth_mm": 3.498,
+        "interference_mm3": 0.0
+      },
+      "collisions": []
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "CAD dimensions only; no physical print or thread inspection.",
+    "Nut engagement uses nominal 3.2 mm thickness; tip chamfer and tolerances are not modeled.",
+    "The base heads project 0.8 mm below the plate and require the supplied 55 mm printed feet.",
+    "M4 clearance holes require separate nuts; they are not tapped plastic holes."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "CAD_parameters": {
+    "yaw_inertia": 0.0059031355654538134,
+    "elevation_inertia": 0.00021665839584294197,
+    "yaw_inertia_coefficients": [
+      0.005886633327989511,
+      -1.6502237464303974e-05,
+      7.3142548048032686e-09
+    ],
+    "gravity_torque_max": 0.003088069400908174,
+    "ratio": 4,
+    "encoder_counts": 2400,
+    "microstep_angle_output_rad": 0.0004908738521234052,
+    "yaw_motor_running_torque": 0.12,
+    "prototype_velocity_limit_rad_s": 0.5235987755982988
+  },
+  "source_mesh_sha256": "a4905f8390d5654e0e232ff8194757c76e4750f9c222404e12ce38fc888d42d8",
+  "simulation_parameters_match": true,
+  "video_parameters_match": true
+}

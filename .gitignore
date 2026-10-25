@@ -1,0 +1,78 @@
+# MATLAB / Simulink caches and platform-specific binaries
+slprj/
+sfprj/
+codegen/
+*_grt_rtw/
+*_ert_rtw/
+*.slxc
+*.asv
+*.m~
+*.autosave
+*.mexw64
+*.mexa64
+*.mexmaci64
+*.mexmaca64
+matlab_crash_dump.*
+java.log.*
+
+# Reproducible simulation logs; keep source MAT/FIS and result reports
+/Simulation/results/*.mat
+/Simulation_V5/results/*.mat
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Firmware, Zephyr/CMake, and host-test outputs
+build/
+build-*/
+dist/
+/Firmware/antenna_zephyr/tests/host/out/
+CMakeFiles/
+CMakeCache.txt
+.cache/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.elf
+*.map
+
+# Regenerated CAD working geometry and duplicate delivery bundles
+qa_cache/
+/3D Print/*.zip
+
+# Local hardware telemetry / calibration
+/Simulation_V5/results/hw_logs/
+hardware_log_*.csv
+hw_*.csv
+
+# Editor / OS temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

@@ -1,0 +1,97 @@
+[
+  {
+    "path": "3MF_A1_PETG_0p4/Plate_00_CALIBRATION_FIRST_A1_PETG_0p4.3mf",
+    "bytes": 216478,
+    "sha256": "e6bfa93d7124bbd1d6c76bc7f7796b9f7b4d460bd5968090edb07223189430b3"
+  },
+  {
+    "path": "3MF_A1_PETG_0p4/Plate_01_base_crossbeam_A1_PETG_0p4.3mf",
+    "bytes": 287843,
+    "sha256": "0e43c178645dcb0612104b02b8d69c7cd489ea18896e9411974c4857c65efa0b"
+  },
+  {
+    "path": "3MF_A1_PETG_0p4/Plate_02_dish_cradle_feed_arms_A1_PETG_0p4.3mf",
+    "bytes": 337451,
+    "sha256": "35241e8eb473347803ef0ff77caa2be087e422b92f4eb66dc888ed2ef58c90b0"
+  },
+  {
+    "path": "3MF_A1_PETG_0p4/Plate_03_drive_and_servo_mounts_A1_PETG_0p4.3mf",
+    "bytes": 480092,
+    "sha256": "60ee53f2bfbeafe4220c8338ac1230240c45ef6c14f0125b87f394c4ba2688e3"
+  },
+  {
+    "path": "3MF_A1_PETG_0p4/Plate_04_fit_test_and_feed_hub_A1_PETG_0p4.3mf",
+    "bytes": 256416,
+    "sha256": "a5bcfcc6aa07cd64026ceae794281b6b18a4f50874c8f8a285d7f3bea9e79f54"
+  },
+  {
+    "path": "3MF_A1_PETG_0p4/Plate_05_MT6701_and_fit_gauges_A1_PETG_0p4.3mf",
+    "bytes": 223280,
+    "sha256": "e33d36b0a506e00e06cc6a1ad8f1d3f55b849c7e140c4e384be183b48fedc46d"
+  },
+  {
+    "path": "print_profiles/A1_PETG_full_project_settings.json",
+    "bytes": 49128,
+    "sha256": "b5426ccf3e438604b4fce581a34e4223092ee1817714f2d098b95f9458ad985b"
+  },
+  {
+    "path": "print_profiles/ESTIMATED_PRINTS.csv",
+    "bytes": 443,
+    "sha256": "244dc0dfb87c62473359fcb8c93e6eff816341ee0ba10677535e5560ff401a41"
+  },
+  {
+    "path": "print_profiles/object_print_settings.json",
+    "bytes": 17683,
+    "sha256": "0cc4cacd01b132f953cbde17364a3340a959ac180b8ac69313f915a5c67ddce0"
+  },
+  {
+    "path": "print_profiles/profile_provenance.json",
+    "bytes": 622,
+    "sha256": "c19e392d3888b64043b6f63c3a0fb8f80e140c58f296db2a2b5d1be312f2dd47"
+  },
+  {
+    "path": "print_profiles/README_A1_PETG.md",
+    "bytes": 8181,
+    "sha256": "0cf40c4a28e0cdd77bfc54d71d8a09d0b375836b53abf783e850c2b840b84d15"
+  },
+  {
+    "path": "audit/A1_PETG_print_validation.json",
+    "bytes": 23356,
+    "sha256": "f774ac0e7ccba9be4a8810ed44e16a6864b4ac3698889f759f8a040ecd433ca5"
+  },
+  {
+    "path": "preview/Plate_00_CALIBRATION_FIRST_A1_PETG_0p4_support.png",
+    "bytes": 37463,
+    "sha256": "32747589c95bb73f9d342c00bc9f0ea1d35f785af73df795ce23b1ceb1e46aba"
+  },
+  {
+    "path": "preview/Plate_01_base_crossbeam_A1_PETG_0p4_support.png",
+    "bytes": 42122,
+    "sha256": "13e53f753109c8c14703e63afa4476a8415d9e71f043d45b766d447eddeeff7a"
+  },
+  {
+    "path": "preview/Plate_02_dish_cradle_feed_arms_A1_PETG_0p4_support.png",
+    "bytes": 81129,
+    "sha256": "449552acad64f0038e1569773ba7a8931742dfc55363e48ec7cda2203c021cf6"
+  },
+  {
+    "path": "preview/Plate_03_drive_and_servo_mounts_A1_PETG_0p4_support.png",
+    "bytes": 79922,
+    "sha256": "82da5ed777952db8bebb75983af9e9d0900cadbfbacd191e8f572b648428f6b2"
+  },
+  {
+    "path": "preview/Plate_04_fit_test_and_feed_hub_A1_PETG_0p4_support.png",
+    "bytes": 42771,
+    "sha256": "6b05e9cc6011eafd4db5ef14d63d1960fbd9949e3d75330a682c0006c290b2c0"
+  },
+  {
+    "path": "preview/Plate_05_MT6701_and_fit_gauges_A1_PETG_0p4_support.png",
+    "bytes": 41573,
+    "sha256": "0cfb13cff31b1c25214a78e6b74b983bf2b700b346c7237566e2d32407b66f21"
+  },
+  {
+    "path": "PRINT_START_HERE.md",
+    "bytes": 722,
+    "sha256": "7beb7d5283372c16c439718852aec762e3a2b3e589560a44f38961ccb41c26dd"
+  }
+]

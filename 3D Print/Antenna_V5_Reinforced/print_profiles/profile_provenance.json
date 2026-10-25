@@ -1,0 +1,15 @@
+{
+  "date_local": "2026-10-25",
+  "slicer": "Bambu Studio 02.08.02.60",
+  "printer": "Bambu Lab A1",
+  "nozzle_mm": 0.4,
+  "filament": "Generic PETG; brand and flow/pressure calibration unmeasured",
+  "bed": "Textured PEI Plate",
+  "source": "Expanded local A1 project plus installed official Generic PETG inheritance",
+  "automatic_slicer_settings_reload_verified": true,
+  "physical_print_verified": false,
+  "CAD_scale": 1,
+  "XY_compensation_mm": 0,
+  "filament_shrink_percent": 100,
+  "note": "Profiles prioritize surface quality and mechanical shells; no universal optimum or guaranteed tolerance."
+}

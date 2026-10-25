@@ -1,0 +1,22 @@
+{
+  "plant": {
+    "Ra": 1,
+    "La": 0.005,
+    "Kt": 0.1,
+    "Kb": 0.1,
+    "N": 150,
+    "J": 7.25,
+    "B": 3.125,
+    "Tc": 5,
+    "epsilon": 0.001
+  },
+  "Ts": 0.01,
+  "h": 0.0001,
+  "duration": 48,
+  "vmax": 0.48,
+  "accel": 1.8,
+  "error_width": 0.08,
+  "kp_velocity": 6,
+  "ki_velocity": 35,
+  "mode": "fuzzy"
+}

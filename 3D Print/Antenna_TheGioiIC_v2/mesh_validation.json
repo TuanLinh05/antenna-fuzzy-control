@@ -1,0 +1,302 @@
+[
+  {
+    "part": "01_base",
+    "quantity": 1,
+    "dimensions_mm": [
+      208.0,
+      146.0,
+      8.0
+    ],
+    "volume_cm3": 234.597,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "02_azimuth_bearing_tower",
+    "quantity": 1,
+    "dimensions_mm": [
+      84.0,
+      83.97,
+      58.0
+    ],
+    "volume_cm3": 80.293,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "03_stepper_tension_bridge",
+    "quantity": 1,
+    "dimensions_mm": [
+      70.0,
+      56.0,
+      80.0
+    ],
+    "volume_cm3": 85.261,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "05_bearing_spacer",
+    "quantity": 3,
+    "dimensions_mm": [
+      11.5,
+      11.5,
+      2.0
+    ],
+    "volume_cm3": 0.102,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "04_GT2_80T_integrated_rotor",
+    "quantity": 1,
+    "dimensions_mm": [
+      96.0,
+      95.97,
+      37.0
+    ],
+    "volume_cm3": 88.784,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "07_fork_crossbeam",
+    "quantity": 1,
+    "dimensions_mm": [
+      208.0,
+      60.0,
+      8.0
+    ],
+    "volume_cm3": 91.831,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "08_right_bearing_arm",
+    "quantity": 1,
+    "dimensions_mm": [
+      136.0,
+      60.0,
+      32.0
+    ],
+    "volume_cm3": 88.353,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "09_left_bearing_arm",
+    "quantity": 1,
+    "dimensions_mm": [
+      136.0,
+      60.0,
+      32.0
+    ],
+    "volume_cm3": 87.312,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "10_MG946R_short_screw_carrier",
+    "quantity": 1,
+    "dimensions_mm": [
+      70.0,
+      56.0,
+      44.0
+    ],
+    "volume_cm3": 44.676,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "11_servo_horn_shaft_coupler",
+    "quantity": 1,
+    "dimensions_mm": [
+      36.0,
+      35.99,
+      18.0
+    ],
+    "volume_cm3": 6.976,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "12_parabolic_dish_160mm",
+    "quantity": 1,
+    "dimensions_mm": [
+      160.0,
+      159.95,
+      30.0
+    ],
+    "volume_cm3": 52.689,
+    "zero_area_facets_removed": 2,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "13_dish_cradle",
+    "quantity": 1,
+    "dimensions_mm": [
+      170.0,
+      48.0,
+      29.0
+    ],
+    "volume_cm3": 44.316,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "14_feed_strut",
+    "quantity": 3,
+    "dimensions_mm": [
+      75.0,
+      62.0,
+      8.0
+    ],
+    "volume_cm3": 3.747,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "15_feed_hub",
+    "quantity": 1,
+    "dimensions_mm": [
+      28.0,
+      28.0,
+      24.0
+    ],
+    "volume_cm3": 5.938,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "16_608_fit_coupon",
+    "quantity": 1,
+    "dimensions_mm": [
+      84.0,
+      30.0,
+      9.0
+    ],
+    "volume_cm3": 14.238,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "17_shaft_fit_coupon",
+    "quantity": 1,
+    "dimensions_mm": [
+      42.0,
+      16.0,
+      8.0
+    ],
+    "volume_cm3": 4.109,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "18_printed_split_shaft_collar",
+    "quantity": 2,
+    "dimensions_mm": [
+      25.0,
+      24.0,
+      8.0
+    ],
+    "volume_cm3": 3.058,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "19_bolted_printed_foot",
+    "quantity": 4,
+    "dimensions_mm": [
+      20.0,
+      19.99,
+      10.0
+    ],
+    "volume_cm3": 2.958,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "20_MG946R_mount_fit_gauge",
+    "quantity": 1,
+    "dimensions_mm": [
+      56.0,
+      70.0,
+      4.0
+    ],
+    "volume_cm3": 11.74,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  },
+  {
+    "part": "21_M3_motor_screw_washer_1mm",
+    "quantity": 4,
+    "dimensions_mm": [
+      8.0,
+      8.0,
+      1.0
+    ],
+    "volume_cm3": 0.042,
+    "zero_area_facets_removed": 0,
+    "watertight": true,
+    "winding_consistent": true,
+    "connected_components": 1,
+    "fits_A1": true
+  }
+]

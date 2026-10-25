@@ -1,0 +1,614 @@
+{
+  "Plate_00_CALIBRATION_FIRST": {
+    "file": "3MF_A1_PETG_0p4/Plate_00_CALIBRATION_FIRST_A1_PETG_0p4.3mf",
+    "object_count": 12,
+    "objects": [
+      {
+        "name": "16_608_fit_coupon",
+        "object_id": 2,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "17_shaft_fit_coupon",
+        "object_id": 4,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "20_LD1501MG_mount_fit_gauge",
+        "object_id": 6,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "23_D_shaft_fit_gauge",
+        "object_id": 8,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "26_MT6701_PCB_fit_gauge",
+        "object_id": 10,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "27_4mm_magnet_fit_gauge",
+        "object_id": 12,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "28_motor_shaft_fit_gauge",
+        "object_id": 14,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "30_NEMA17_mount_fit_gauge",
+        "object_id": 16,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "29_servo_ear_0p5mm_spacer",
+        "object_id": 18,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      },
+      {
+        "name": "29_servo_ear_0p5mm_spacer",
+        "object_id": 20,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      },
+      {
+        "name": "29_servo_ear_0p5mm_spacer",
+        "object_id": 22,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      },
+      {
+        "name": "29_servo_ear_0p5mm_spacer",
+        "object_id": 24,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      }
+    ]
+  },
+  "Plate_01_base_crossbeam": {
+    "file": "3MF_A1_PETG_0p4/Plate_01_base_crossbeam_A1_PETG_0p4.3mf",
+    "object_count": 4,
+    "objects": [
+      {
+        "name": "01_base",
+        "object_id": 2,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "1",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "07_fork_crossbeam",
+        "object_id": 4,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "05_bearing_spacer",
+        "object_id": 6,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      },
+      {
+        "name": "05_bearing_spacer",
+        "object_id": 8,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      }
+    ]
+  },
+  "Plate_02_dish_cradle_feed_arms": {
+    "file": "3MF_A1_PETG_0p4/Plate_02_dish_cradle_feed_arms_A1_PETG_0p4.3mf",
+    "object_count": 5,
+    "objects": [
+      {
+        "name": "12_parabolic_dish_160mm",
+        "object_id": 2,
+        "settings": {
+          "wall_loops": "4",
+          "sparse_infill_density": "20%",
+          "enable_support": "1",
+          "brim_type": "outer_only",
+          "brim_width": "5",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.12",
+          "support_type": "tree(auto)",
+          "support_style": "tree_hybrid",
+          "support_on_build_plate_only": "1",
+          "support_top_z_distance": "0.24"
+        }
+      },
+      {
+        "name": "13_dish_cradle",
+        "object_id": 4,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "14_feed_strut",
+        "object_id": 6,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "14_feed_strut",
+        "object_id": 8,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "14_feed_strut",
+        "object_id": 10,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      }
+    ]
+  },
+  "Plate_03_drive_and_servo_mounts": {
+    "file": "3MF_A1_PETG_0p4/Plate_03_drive_and_servo_mounts_A1_PETG_0p4.3mf",
+    "object_count": 7,
+    "objects": [
+      {
+        "name": "08_right_bearing_arm",
+        "object_id": 2,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "09_left_bearing_arm",
+        "object_id": 4,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "02_azimuth_bearing_tower",
+        "object_id": 6,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "03_stepper_tension_bridge",
+        "object_id": 8,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "1",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "10_LD1501MG_reinforced_carrier",
+        "object_id": 10,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "04_GT2_80T_integrated_rotor",
+        "object_id": 12,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "1",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "11_servo_horn_shaft_coupler",
+        "object_id": 14,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      }
+    ]
+  },
+  "Plate_04_fit_test_and_feed_hub": {
+    "file": "3MF_A1_PETG_0p4/Plate_04_fit_test_and_feed_hub_A1_PETG_0p4.3mf",
+    "object_count": 12,
+    "objects": [
+      {
+        "name": "15_feed_hub",
+        "object_id": 2,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "40%",
+          "enable_support": "1",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "18_printed_split_shaft_collar",
+        "object_id": 4,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "18_printed_split_shaft_collar",
+        "object_id": 6,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "19_bolted_printed_foot",
+        "object_id": 8,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "19_bolted_printed_foot",
+        "object_id": 10,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "19_bolted_printed_foot",
+        "object_id": 12,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "19_bolted_printed_foot",
+        "object_id": 14,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "05_bearing_spacer",
+        "object_id": 16,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      },
+      {
+        "name": "21_M3_motor_screw_washer_1mm",
+        "object_id": 18,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      },
+      {
+        "name": "21_M3_motor_screw_washer_1mm",
+        "object_id": 20,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      },
+      {
+        "name": "21_M3_motor_screw_washer_1mm",
+        "object_id": 22,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      },
+      {
+        "name": "21_M3_motor_screw_washer_1mm",
+        "object_id": 24,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "2",
+          "brim_object_gap": "0.15",
+          "layer_height": "0.10",
+          "top_shell_thickness": "0",
+          "bottom_shell_thickness": "0",
+          "top_shell_layers": "5",
+          "bottom_shell_layers": "5"
+        }
+      }
+    ]
+  },
+  "Plate_05_MT6701_and_fit_gauges": {
+    "file": "3MF_A1_PETG_0p4/Plate_05_MT6701_and_fit_gauges_A1_PETG_0p4.3mf",
+    "object_count": 3,
+    "objects": [
+      {
+        "name": "22_MT6701_open_U_bridge",
+        "object_id": 2,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "45%",
+          "enable_support": "1",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "24_MT6701_3point_carrier",
+        "object_id": 4,
+        "settings": {
+          "wall_loops": "6",
+          "sparse_infill_density": "100%",
+          "enable_support": "0",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      },
+      {
+        "name": "25_rotating_4x2_magnet_cap",
+        "object_id": 6,
+        "settings": {
+          "wall_loops": "8",
+          "sparse_infill_density": "100%",
+          "enable_support": "1",
+          "brim_type": "outer_only",
+          "brim_width": "4",
+          "brim_object_gap": "0.15"
+        }
+      }
+    ]
+  }
+}

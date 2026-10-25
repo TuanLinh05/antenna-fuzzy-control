@@ -1,0 +1,854 @@
+[
+  {
+    "plate": "Plate_01_base_crossbeam",
+    "part_a": "07_fork_crossbeam",
+    "part_b": "01_base",
+    "XY_separation_mm": 10.0
+  },
+  {
+    "plate": "Plate_01_base_crossbeam",
+    "part_a": "05_bearing_spacer",
+    "part_b": "01_base",
+    "XY_separation_mm": 28.974
+  },
+  {
+    "plate": "Plate_01_base_crossbeam",
+    "part_a": "05_bearing_spacer",
+    "part_b": "07_fork_crossbeam",
+    "XY_separation_mm": 4.25
+  },
+  {
+    "plate": "Plate_01_base_crossbeam",
+    "part_a": "05_bearing_spacer",
+    "part_b": "01_base",
+    "XY_separation_mm": 53.215
+  },
+  {
+    "plate": "Plate_01_base_crossbeam",
+    "part_a": "05_bearing_spacer",
+    "part_b": "07_fork_crossbeam",
+    "XY_separation_mm": 4.25
+  },
+  {
+    "plate": "Plate_01_base_crossbeam",
+    "part_a": "05_bearing_spacer",
+    "part_b": "05_bearing_spacer",
+    "XY_separation_mm": 14.504
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "13_dish_cradle",
+    "part_b": "12_parabolic_dish_160mm",
+    "XY_separation_mm": 11.025
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "12_parabolic_dish_160mm",
+    "XY_separation_mm": 15.083
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "13_dish_cradle",
+    "XY_separation_mm": 104.905
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "12_parabolic_dish_160mm",
+    "XY_separation_mm": 36.562
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "13_dish_cradle",
+    "XY_separation_mm": 25.767
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "14_feed_strut",
+    "XY_separation_mm": 40.937
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "12_parabolic_dish_160mm",
+    "XY_separation_mm": 87.968
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "13_dish_cradle",
+    "XY_separation_mm": 16.816
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "14_feed_strut",
+    "XY_separation_mm": 100.276
+  },
+  {
+    "plate": "Plate_02_dish_cradle_feed_arms",
+    "part_a": "14_feed_strut",
+    "part_b": "14_feed_strut",
+    "XY_separation_mm": 40.937
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "09_left_bearing_arm",
+    "part_b": "08_right_bearing_arm",
+    "XY_separation_mm": 6.0
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "02_azimuth_bearing_tower",
+    "part_b": "08_right_bearing_arm",
+    "XY_separation_mm": 81.013
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "02_azimuth_bearing_tower",
+    "part_b": "09_left_bearing_arm",
+    "XY_separation_mm": 15.013
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "03_stepper_tension_bridge",
+    "part_b": "08_right_bearing_arm",
+    "XY_separation_mm": 17.0
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "03_stepper_tension_bridge",
+    "part_b": "09_left_bearing_arm",
+    "XY_separation_mm": 17.0
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "03_stepper_tension_bridge",
+    "part_b": "02_azimuth_bearing_tower",
+    "XY_separation_mm": 127.416
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "10_MG946R_short_screw_carrier",
+    "part_b": "08_right_bearing_arm",
+    "XY_separation_mm": 17.0
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "10_MG946R_short_screw_carrier",
+    "part_b": "09_left_bearing_arm",
+    "XY_separation_mm": 17.0
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "10_MG946R_short_screw_carrier",
+    "part_b": "02_azimuth_bearing_tower",
+    "XY_separation_mm": 86.642
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "10_MG946R_short_screw_carrier",
+    "part_b": "03_stepper_tension_bridge",
+    "XY_separation_mm": 7.0
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "04_GT2_80T_integrated_rotor",
+    "part_b": "08_right_bearing_arm",
+    "XY_separation_mm": 89.994
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "04_GT2_80T_integrated_rotor",
+    "part_b": "09_left_bearing_arm",
+    "XY_separation_mm": 31.821
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "04_GT2_80T_integrated_rotor",
+    "part_b": "02_azimuth_bearing_tower",
+    "XY_separation_mm": 53.133
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "04_GT2_80T_integrated_rotor",
+    "part_b": "03_stepper_tension_bridge",
+    "XY_separation_mm": 86.015
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "04_GT2_80T_integrated_rotor",
+    "part_b": "10_MG946R_short_screw_carrier",
+    "XY_separation_mm": 23.015
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "11_servo_horn_shaft_coupler",
+    "part_b": "08_right_bearing_arm",
+    "XY_separation_mm": 142.006
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "11_servo_horn_shaft_coupler",
+    "part_b": "09_left_bearing_arm",
+    "XY_separation_mm": 76.006
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "11_servo_horn_shaft_coupler",
+    "part_b": "02_azimuth_bearing_tower",
+    "XY_separation_mm": 26.334
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "11_servo_horn_shaft_coupler",
+    "part_b": "03_stepper_tension_bridge",
+    "XY_separation_mm": 150.273
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "11_servo_horn_shaft_coupler",
+    "part_b": "10_MG946R_short_screw_carrier",
+    "XY_separation_mm": 89.201
+  },
+  {
+    "plate": "Plate_03_drive_and_servo_mounts",
+    "part_a": "11_servo_horn_shaft_coupler",
+    "part_b": "04_GT2_80T_integrated_rotor",
+    "XY_separation_mm": 6.018
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "17_shaft_fit_coupon",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 20.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "15_feed_hub",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 15.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "15_feed_hub",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 45.059
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "18_printed_split_shaft_collar",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 32.951
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "18_printed_split_shaft_collar",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 31.686
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "18_printed_split_shaft_collar",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 22.75
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "18_printed_split_shaft_collar",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 61.351
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "18_printed_split_shaft_collar",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 72.598
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "18_printed_split_shaft_collar",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 31.967
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "18_printed_split_shaft_collar",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 16.004
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 70.003
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 35.88
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 114.54
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 84.308
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 123.123
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 70.003
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 34.003
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 90.981
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 54.752
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 91.761
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 12.996
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 70.003
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 35.357
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 73.085
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 29.541
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 61.683
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 45.986
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 12.996
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 72.711
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 52.224
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 64.367
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 18.004
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 34.925
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 78.975
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 45.986
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "19_bolted_printed_foot",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 12.996
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 79.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 81.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 77.704
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 39.903
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 27.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 126.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 93.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 60.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "20_MG946R_mount_fit_gauge",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 27.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 40.575
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 25.568
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 115.102
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 97.859
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 138.828
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 23.165
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 45.283
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 74.305
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 105.399
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "05_bearing_spacer",
+    "part_b": "20_MG946R_mount_fit_gauge",
+    "XY_separation_mm": 150.981
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 114.001
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 79.172
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 147.953
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 110.426
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 144.697
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 24.007
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 36.986
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 63.028
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 92.975
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "20_MG946R_mount_fit_gauge",
+    "XY_separation_mm": 133.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "05_bearing_spacer",
+    "XY_separation_mm": 64.976
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 114.001
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 78.001
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 138.013
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 98.267
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 130.91
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 26.847
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 28.051
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 49.595
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 78.2
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "20_MG946R_mount_fit_gauge",
+    "XY_separation_mm": 117.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "05_bearing_spacer",
+    "XY_separation_mm": 69.951
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "21_M3_motor_screw_washer_1mm",
+    "XY_separation_mm": 7.998
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 114.001
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 78.001
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 129.146
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 87.15
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 117.629
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 35.04
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 24.057
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 37.666
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 63.894
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "20_MG946R_mount_fit_gauge",
+    "XY_separation_mm": 101.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "05_bearing_spacer",
+    "XY_separation_mm": 77.608
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "21_M3_motor_screw_washer_1mm",
+    "XY_separation_mm": 23.993
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "21_M3_motor_screw_washer_1mm",
+    "XY_separation_mm": 7.998
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "16_608_fit_coupon",
+    "XY_separation_mm": 114.001
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "17_shaft_fit_coupon",
+    "XY_separation_mm": 78.001
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "15_feed_hub",
+    "XY_separation_mm": 121.556
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 77.468
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "18_printed_split_shaft_collar",
+    "XY_separation_mm": 105.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 46.443
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 26.501
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 28.485
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "19_bolted_printed_foot",
+    "XY_separation_mm": 50.407
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "20_MG946R_mount_fit_gauge",
+    "XY_separation_mm": 85.0
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "05_bearing_spacer",
+    "XY_separation_mm": 87.313
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "21_M3_motor_screw_washer_1mm",
+    "XY_separation_mm": 39.988
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "21_M3_motor_screw_washer_1mm",
+    "XY_separation_mm": 23.993
+  },
+  {
+    "plate": "Plate_04_fit_test_and_feed_hub",
+    "part_a": "21_M3_motor_screw_washer_1mm",
+    "part_b": "21_M3_motor_screw_washer_1mm",
+    "XY_separation_mm": 7.998
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tested": "2026-10-11",
+  "method": "Codex in-app browser; local HTTP serving the standalone HTML",
+  "webgl_render_visually_verified": true,
+  "console_errors": [],
+  "elevation_slider_end_deg": 180,
+  "azimuth_slider_end_deg": 180,
+  "hardware_checkbox_verified": true,
+  "reset_input_values_verified": {"elevation": 35, "azimuth": 0},
+  "offline_geometry_embedded": true,
+  "limitations": ["Browser preview is geometric animation, not loaded mechanical testing."]
+}

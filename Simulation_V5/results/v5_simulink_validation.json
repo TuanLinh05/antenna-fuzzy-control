@@ -1,0 +1,9 @@
+{
+  "model": "antenna_v5_sim.slx",
+  "solver": "FixedStepDiscrete 1 ms, plant RK4 50 us",
+  "peak_speed_dps": 28.686151134047066,
+  "max_abs_diff_to_script_deg": 0.35660011503923206,
+  "max_abs_diff_settled_deg": 0.070355812274372945,
+  "final_az_deg": 90.645830455883342,
+  "script_final_az_deg": 90.603044093559333
+}

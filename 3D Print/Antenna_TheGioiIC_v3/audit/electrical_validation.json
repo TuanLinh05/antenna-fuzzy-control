@@ -1,0 +1,25 @@
+{
+  "status": "PASS_DESIGN_ASSUMPTIONS",
+  "checks": {
+    "transistor_base_min_drives_15mA_at_forced_beta10": true,
+    "GPIO_base_current_below_8mA": true,
+    "five_volt_design_budget_below_module_published_5A": true,
+    "adapter_design_budget_below_60W": true,
+    "timer_STEP_pulse_us_at_least_5": true,
+    "encoder_filter_3us_less_than_5ms_edge_interval": true,
+    "firmware_build_pass": true
+  },
+  "transistor_base_current_min_A": 0.0019523809523809522,
+  "transistor_base_current_max_A": 0.002963157894736842,
+  "estimated_motor_copper_loss_W": 8.035714285714286,
+  "five_volt_peak_design_current_A": 3.25,
+  "estimated_peak_input_power_W": 31.348214285714285,
+  "adapter_nameplate_W": 60,
+  "actual_hardware_tested": false,
+  "limitations": [
+    "Servo peak3A, encoder0.1A and converter efficiency0.8 are design budgets, not measurements.",
+    "Module current capability, wiring polarity, signal voltages, temperature and pulse timing need bench checks.",
+    "No automatic homing or physical limit switch is included. Manual zero and software limits are explicit.",
+    "Normal software stop retains holding power; physical power isolation is by unplugging the DC adapter."
+  ]
+}
