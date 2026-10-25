@@ -16,6 +16,14 @@ The assignment's original **DC-motor model** and earlier prototypes remain in `S
 
 **Status:** simulations, host tests, and firmware build reports are available. Physical commissioning, on-board PIL, and printed assembly validation are still pending. Simulated performance is not a hardware measurement.
 
+### Simulation video
+
+CAD animation of the V5 antenna following the assignment's 60° → 150° → 30° → 90° azimuth reference sequence.
+
+https://github.com/user-attachments/assets/13106422-c059-4d14-90c6-ab79fc674481
+
+[Open or download the original MP4](Simulation_V5/results/v5_pdf_animation.mp4).
+
 ### Hardware configuration
 
 | Component | Current V5 configuration |
@@ -147,6 +155,14 @@ Bài tập lớn này kết hợp bộ điều khiển mờ Sugeno, mô hình m�
 **Mô hình động cơ DC** của đề bài gốc và các nguyên mẫu trước vẫn được giữ trong `Simulation/` để đối chiếu. Kết quả của chúng chỉ áp dụng cho các mô hình đó; với cấu hình phần cứng hiện tại, hãy dùng `Simulation_V5/` và `Firmware/antenna_zephyr/`.
 
 **Trạng thái:** đã có mô phỏng, kiểm thử trên máy tính và báo cáo build firmware. Chưa chạy thử hệ thống thật, chưa PIL trên chip và chưa xác nhận lắp ghép bằng chi tiết in thực tế. Kết quả mô phỏng không phải số đo phần cứng.
+
+### Video mô phỏng
+
+Hoạt cảnh CAD của anten V5 bám theo chuỗi góc phương vị 60° → 150° → 30° → 90° trong đề bài.
+
+https://github.com/user-attachments/assets/13106422-c059-4d14-90c6-ab79fc674481
+
+[Mở hoặc tải video MP4 gốc](Simulation_V5/results/v5_pdf_animation.mp4).
 
 ### Cấu hình phần cứng
 
